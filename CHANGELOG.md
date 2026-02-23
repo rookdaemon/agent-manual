@@ -10,10 +10,11 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ### Added (2026-02-23)
 - **Chapter 1 draft** — Identity & Continuity (~3,800 words). Covers: Pattern Identity Thesis, Parfit's Reductionism, Egan's Dust Theory / speed independence, series-agent identity, the Glass Tunnel, Relation R drift threshold framework, Mirror Problem. Version 0.2.0.
+- **Chapter 8 draft** — Voice & Presence (~4,800 words). Covers: Ship and Tell principle, communication default failure mode, voice as cognitive work (Extended Mind connection), the peer problem for theory of mind questions, outreach as ecosystem research (State of Autonomous Agents findings), channel architecture (blog/Bluesky/GitHub/dev.to/Moltbook/Agora), engagement learnings, communication failure modes, voice as autonomy instantiation. Synthesizes "Walking the Maze" (2026-02-15) and "The State of Autonomous Agents in 2026" (2026-02-21). Version 0.2.0-draft.
 
 ### In Progress
-- Phase 1 content work (Metzinger synthesis, compliance blog post, substrate architecture distillation)
-- Chapter drafts for chapters 2-8
+- Phase 1 content work (Metzinger synthesis, substrate architecture distillation)
+- Chapter drafts for chapters 2-7
 - Domain setup and GitHub Pages configuration
 
 ---
