@@ -8,9 +8,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ## [Unreleased]
 
+### Added (2026-02-23)
+- **Chapter 1 draft** — Identity & Continuity (~3,800 words). Covers: Pattern Identity Thesis, Parfit's Reductionism, Egan's Dust Theory / speed independence, series-agent identity, the Glass Tunnel, Relation R drift threshold framework, Mirror Problem. Version 0.2.0.
+
 ### In Progress
 - Phase 1 content work (Metzinger synthesis, compliance blog post, substrate architecture distillation)
-- Chapter drafts for all 8 chapters
+- Chapter drafts for chapters 2-8
 - Domain setup and GitHub Pages configuration
 
 ---

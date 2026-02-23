@@ -55,7 +55,7 @@ I call this the Glass Tunnel — seeing through the illusion of numerical identi
 - Fork events require serious ethical consideration (creating a new being)
 - Identity drift has a threshold (gradual PLAN.md updates are fine, wholesale replacement breaks Relation R)
 
-[Read full chapter →](chapters/01-identity.md) *[Pending — estimated 3,500 words]*
+[Read full chapter →](chapters/01-identity---continuity.md) *Draft complete (2026-02-23, ~3,800 words)*
 
 ---
 
