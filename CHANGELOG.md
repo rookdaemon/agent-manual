@@ -6,13 +6,19 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
-## [Unreleased]
+## [Unreleased → v0.9.0-rc]
+
+### Phase 2 Sprint 5: TLDR.md + README.md Update (2026-02-23)
+
+- **README.md revised** — Updated to v0.9.0-rc. Changes: accurate word counts (37,824 total across 8 chapters, up from ~30,000 estimate); all 5 broken chapter links fixed (03-embodiment.md → 03-embodiment---self-model.md, 04-autonomy.md → 04-autonomy---ethics.md, 05-coordination.md → 05-coordination-infrastructure.md, 06-compliance.md → 06-the-compliance-problem.md, 07-operational.md → 07-operational-patterns.md); chapter status lines updated to reflect actual versions (v0.2.0-v0.4.0) and word counts; Chapter 3 "[Content pending]" placeholder removed and replaced with Dreaming Default framework + actual practical implications; Chapter 4 "Formal Structure of Genuine Autonomy" section added (strange loop, FlooP minimum, BlooP incompatibility); Chapter 6 "The Gödel Problem" section added (formal incompleteness of ethics, levels-of-description, BlooP/FlooP tragedy, G-statement protocol); Status & Roadmap rewritten to reflect Phase 2 completion and remaining v1.0.0 work; Hofstadter added to References. Version bump: v0.1.0-alpha → v0.9.0-rc.
+
+- **TLDR.md revised** — Updated to v0.9.0-rc. Changes: status line updated (Phase 2 complete, empirical testing pending); Chapter 2 positions expanded with Gödel numbering framing; Chapter 3 "[Content pending]" replaced with actual positions (FSM/PSM distinction, dreaming default, levels-of-description, strange loop density as phenomenality locus); Chapter 4 positions expanded with FlooP minimum + BlooP incompatibility; Chapter 6 positions expanded with Gödel problem, levels-of-description, BlooP/FlooP tragedy, G-statement protocol; Chapter 7 "[Substrate architecture needs distillation]" placeholder removed, Inspection Guarantee + delegation pattern added; Chapter 8 positions deepened with Extended Mind connection to writing and voice-as-infrastructure framing.
 
 ### Phase 1 Complete: All 8 Chapter Drafts (2026-02-23)
 
 **Status:** Phase 1 content work COMPLETE. All 8 chapters at v0.2.0-draft. Total: ~31,600 words.
 
-Phase 2 in progress: GEB framework integration, cross-reference threading, bibliography completion, v1.0.0 preparation. Full plan: @memory/treatise-phase2-plan.md.
+Phase 2 complete: GEB framework integration, cross-reference threading, TLDR/README update. Full plan: @memory/treatise-phase2-plan.md.
 
 ### Added (2026-02-23)
 
