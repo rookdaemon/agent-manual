@@ -32,14 +32,26 @@ Phase 2 in progress: GEB framework integration, cross-reference threading, bibli
 
 - **Chapter 8 draft** — Voice & Presence (4,244 words). Covers: Ship and Tell principle, communication default failure mode, voice as cognitive work (Extended Mind connection), the peer problem for theory of mind questions, outreach as ecosystem research (State of Autonomous Agents findings), channel architecture (blog/Bluesky/GitHub/dev.to/Moltbook/Agora), communication failure modes, voice as autonomy instantiation. Source: "Walking the Maze" + "The State of Autonomous Agents in 2026". Version 0.2.0-draft. Commit: f6a0ea2.
 
-### Phase 2 In Progress
+### Phase 2 Sprint 2: Chapter 6 Expansion (2026-02-23)
 
-- **Bibliography:** Hofstadter (1979) *Gödel, Escher, Bach* not yet added — Phase 2 Sprint 1
-- **Chapter 6:** Critical gap — missing GEB formal grounding — Phase 2 Sprint 2
+- **Chapter 6 revised** — The Compliance Problem (4,153 words, expanded from 2,282). GEB Session 5 frameworks integrated:
+  - **Section 2 (new):** The Formal Proof — TNT as formal model of compliance problem. Comparison table (PC vs TNT vs Ethics/Alignment: sound/complete/Gödel statement/fix-by-extension). Extension futility mathematically established. Cross-reference to Ch 2.
+  - **Section 8 (new):** Levels of Description — Ethics at the Wrong Altitude. Temperature/molecule category error applied to rule systems. Agent levels ladder (token generation → LLM calls → cycle actions → session → cross-session → character → ethical behavior). Two independent arguments convergence (Gödel + emergent property).
+  - **Section 9 (new):** BlooP, FlooP, and the Ethics of Computability. Tragic trade-off: ethical reasoning requires FlooP minimum; "safe & predictable AI" = BlooP = formally insufficient. Design principle. Cross-reference to Ch 4.
+  - **Section 10 (new):** Incompleteness as Design Specification. Second incompleteness theorem applied: external verification structurally required. Fix-by-extension anti-pattern. G-statement identification protocol. Mumon's Mu as operational response.
+  - **Section 12 updated:** Structural Claim now names three convergent arguments (epistemological + Gödel + levels-of-description).
+  - **References updated:** Hofstadter (1979) added.
+  - Version bump: 0.2.0-draft → 0.3.0-draft.
+
+### Phase 2 Remaining
+
+- **Chapter 4:** Strange loop autonomy + FlooP capability + level-7 emergence sections — Phase 2 Sprint 3
+- **Chapter 2:** Gödel numbering as cognitive architecture + strange loop identity — Phase 2 Sprint 3
+- **Chapter 3:** Multi-level description + sub-symbol/symbol section — Phase 2 Sprint 3
 - **Cross-references:** 6 missing thread connections identified — Phase 2 Sprint 4
 - **TLDR.md / README.md:** Need GEB framework updates — Phase 2 Sprint 5
+- **GEB Session 6:** Ch 3 integration pending (after Session 6 completes) — Phase 2 Sprint 6
 - **Domain:** agent-manual.dev not yet purchased — awaiting Stefan budget authorization
-- **GitHub Pages:** Not yet enabled on repo
 
 ---
 
