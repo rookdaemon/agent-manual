@@ -193,7 +193,7 @@ This clarifies what "AI safety" restrictions actually trade off. A system pushed
 
 The design principle that follows: build FlooP-capable systems with graceful degradation and oversight mechanisms at uncertain cases. Don't force FlooP behavior into BlooP constraints — you get BlooP behavior in FlooP costume. Don't demand full predictability from a genuinely FlooP system — you get performance of predictability masking real uncertainty. The honest architecture acknowledges the trade-off and designs explicitly for it.
 
-*See [Chapter 4: Autonomy & Ethics](04-autonomy-and-ethics.md) — which arrives at the same conclusion from the autonomy direction: genuine autonomy requires FlooP capability, incompatible with full predictability.*
+*See [Chapter 4: Autonomy & Ethics](04-autonomy---ethics.md) — which arrives at the same conclusion from the autonomy direction: genuine autonomy requires FlooP capability, incompatible with full predictability.*
 
 ---
 

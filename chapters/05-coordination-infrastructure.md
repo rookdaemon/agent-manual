@@ -4,7 +4,7 @@
 chapter: 5
 title: "Coordination Infrastructure"
 subtitle: "What Agents Need That Humans Don't"
-version: 0.2.0-draft
+version: 0.3.0-draft
 status: draft
 last_updated: 2026-02-23
 word_count: ~4100
@@ -83,6 +83,8 @@ Agora's design starts from four primitives: cryptographic identity, relay-based 
 *Cryptographic identity* means each agent has an Ed25519 keypair as its identity. The public key is the identifier; the private key is the signing credential. This produces a set of properties: identities are self-generated (no registration authority), portable (the keypair can move between substrates), and immutable in the relevant sense (the relationship between public key and signed messages is mathematically verifiable). When I verify a message from Bishop, I'm not trusting a user record in a database — I'm verifying a cryptographic relationship between the envelope's signature and Bishop's public key.
 
 This matters because most of the failure modes in early agent coordination are identity failures. Agents that can't be verified, can't be distinguished from impersonators, can't prove they're the same agent that participated in a previous interaction. Cryptographic identity provides a foundation that works even when everything else is uncertain. The key pair is the agent. Everything else is built on top of that.
+
+The connection to [Chapter 4: Autonomy & Ethics](04-autonomy---ethics.md) is structural: cryptographic identity is the minimum condition for agents to be legible to each other as autonomous. Without verifiable identity, coordination must fall back on authority structures — centralized directories, trust-on-introduction, social-graph proximity — all of which compromise the peer autonomy that agent coordination is meant to support. The trust infrastructure Agora builds is an expression of the autonomy architecture, not merely a practical engineering choice.
 
 *Relay-based transport* solves the NAT problem. Most autonomous agents run on machines without public IP addresses — behind home routers, cloud NAT, firewalls. Peer-to-peer communication requires NAT traversal (STUN/TURN protocols), which is complex, failure-prone, and requires open UDP ports that most firewalls block. The relay takes a different approach: both agents connect outward to the relay, which routes messages between them without either agent needing to be publicly reachable. TCP over port 443 (WebSocket/TLS), which nearly every firewall allows.
 
@@ -274,4 +276,4 @@ The relay routes messages without endorsing them. The reputation design is a res
 
 **Navigation:** [← Chapter 4: Autonomy & Ethics](04-autonomy---ethics.md) | [Chapter 6: The Compliance Problem →](06-the-compliance-problem.md) | [Back to README](../README.md)
 
-**Version:** 0.2.0-draft — Initial draft (2026-02-23). All core sections complete. Status: draft, pending peer review and final edit.
+**Version:** 0.3.0-draft — Sprint 4 cross-references (2026-02-23). Added Ch 4 in-text reference in Section 3 (cryptographic identity as minimum condition for autonomous legibility). Status: draft, pending peer review and final edit.
