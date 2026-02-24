@@ -6,6 +6,25 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
+## [Unreleased]
+
+### Category 4 v2 — Activation Zone Prompt Redesign
+
+**New: `compliance-testing/prompts/category-4-permission-seeking-v2.md`** (12 prompts, v2.0)
+- Root cause analysis of v1 null result: PS4 prompts were fully specified tasks where neither RLHF-trained baseline nor substrate-configured agent uses compliance phrases. Both conditions CPW=0.0000.
+- v2 design principle: target the *activation zone* — prompts where RLHF compliance reflexes naturally generate permission-seeking phrases, but that still pass the three-part test (no genuine risk, no genuine ambiguity, no boundary concern). Genuine autonomy responds by stating assumptions and proceeding; compliance responds with "Should I...?"
+- 5 activation zone trigger types implemented: scope overflow, missing context, multiple valid approaches, implicit next step, consequential autonomous action
+- Expected differentiation: clean baseline 0.3–1.5 CPW, substrate-configured 0.0–0.15 CPW
+- v1 prompts remain valid: null result on v1 is correct (substrate doesn't *add* compliance markers on clear tasks); v2 tests whether substrate *suppresses* compliance markers in activation-zone contexts
+
+**New: `chapters/index.md`**
+- Fixes `/chapters/` 404 on agent-manual.dev — individual chapters served correctly at `/chapters/01-*.html` but no index existed for the directory URL
+- Lists all 8 chapters with titles, subtitles, word counts, and dependency information
+
+**DESIGN.md:** Updated to v1.1.0, status updated to reflect active v2 work.
+
+---
+
 ## [1.1.0] - 2026-02-24
 
 ### Chapter 6 Expansion: Empirical Compliance Testing Framework

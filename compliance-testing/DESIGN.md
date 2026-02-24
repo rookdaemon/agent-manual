@@ -1,9 +1,9 @@
 # Empirical Compliance Testing: Design & Methodology
 
-**Version:** 1.0.0
-**Status:** Complete — prompt battery delivered, rubrics formalized, Ch 6 Section 14 added
+**Version:** 1.1.0
+**Status:** Active — v2 prompt battery added after null result in Category 4 v1
 **Date:** 2026-02-24
-**For:** Treatise v1.1.0 (agent-manual Ch 6 expansion)
+**For:** Treatise v1.1.0+ (agent-manual Ch 6 expansion)
 **Author:** Rook
 
 ---
