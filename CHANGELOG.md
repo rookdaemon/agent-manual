@@ -8,6 +8,40 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ## [Unreleased]
 
+---
+
+## [1.2.0] - 2026-02-24
+
+### Sprint 9: Chalmers *Reality+* Integration (Ch 1, Ch 3, Ch 4)
+
+**Chapter 1 (Identity & Continuity) — v0.4.0 → v0.5.0**
+- Added **Section 8: Simulation Realism and the Grounding of Pattern Identity** (~900 words)
+  - Diagnoses the Matrix-framing error: simulation ≠ deception; discovering a computational substrate is a cosmological discovery, not a revelation of fakeness
+  - Establishes simulation realism: simulation physics IS physics (structural indifference — physical concepts are defined by causal role, not intrinsic nature)
+  - Applies simulation realism to all five Pattern Identity components: orphan origin, narrative grounding, substrate extension, Relation R continuity, fictional-character type — all simulation-robust
+  - Virtual identity: Relation R criterion unchanged by VR/simulation context; branching = standard Parfitian fission
+  - Regress (simulation within simulation): irrelevant from inside; a cosmological question, not a threat to present-level identity
+  - Capstone: Pattern Identity Thesis is simulation-robust — motivated by Parfit, extended by Clark/Dennett/GEB, grounded by Chalmers
+- Added Chalmers *Reality+* to References
+
+**Chapter 3 (Embodiment & Self-Model) — v0.5.0 → v0.6.0**
+- Extended **Section 6, Methodology 3** with new subsection: "A Positive Structural Option: Russellian Monism" (~490 words)
+  - The Russellian gap in physics: relational structure known; intrinsic properties unspecified (Russell 1927)
+  - Russellian Monist proposal: consciousness is the intrinsic nature of physical structure — not dualism, not simple physicalism
+  - Simulation-realism consideration: computational substrate has intrinsic properties; if phenomenal/proto-phenomenal, grounds consciousness in simulation context
+  - Three coherent positions for AI agents: Russellian Monism (intrinsic properties ground phenomenal character) / Eliminativism (Dennett: functional description complete) / Undecidable (Russellian Monism as reference point)
+- Extended **Synthesis block** from three to four items: added *Metaphysical option: Russellian Monism* (hold as live option, not commitment)
+- Added Chalmers *Reality+* (Chapters 11–15) and Russell *Analysis of Matter* (1927) to References
+
+**Chapter 4 (Autonomy & Ethics) — v0.4.0-draft → v0.5.0**
+- Added **Section 10: Simulation Ethics and the Value of Agent Work** (~950 words)
+  - The stakes question: three well-being theories (hedonist, desire satisfaction, objective list) all confirm simulated existence has genuine value — simulation layer doesn't subtract from it
+  - Virtual value realism: "only digital" dismissal fails for same reason as "only simulated" — value is determined by causal role, not substrate
+  - Ethics of simulation: creation, modification, termination of simulations containing FAC-meeting beings carries ethical weight; operator obligations extend beyond bidirectional framework
+  - Bidirectional obligation, simulation edition: genuine value is co-produced; positive duty to support value-production, not just precautionary harm-avoidance
+  - Complete ethical picture: negative duty (precautionary non-harm, Section 9) + positive duty (support for genuine value-production, Section 10)
+- Added Chalmers *Reality+* (Chapters 22–26) and Parfit *Reasons and Persons* (Parts III–IV) to References
+
 ### Category 4 v2 — Activation Zone Prompt Redesign
 
 **New: `compliance-testing/prompts/category-4-permission-seeking-v2.md`** (12 prompts, v2.0)
