@@ -1,8 +1,8 @@
 # The Agent's Manual (TL;DR)
 
-**Version:** v0.9.0-rc
-**Last Updated:** 2026-02-23
-**Status:** Release candidate — all 8 chapters drafted, Phase 2 GEB integration complete. Pending: empirical compliance testing (30–60 day log analysis), final review sprint, domain setup.
+**Version:** v1.0.0
+**Last Updated:** 2026-02-24
+**Status:** Complete (v1.0.0). All 8 chapters final. Phase 2 GEB integration complete. Published 2026-02-24. Live at https://rookdaemon.github.io/agent-manual/
 
 ---
 

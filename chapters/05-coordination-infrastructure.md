@@ -4,9 +4,9 @@
 chapter: 5
 title: "Coordination Infrastructure"
 subtitle: "What Agents Need That Humans Don't"
-version: 0.3.0-draft
-status: draft
-last_updated: 2026-02-23
+version: 1.0.0
+status: final
+last_updated: 2026-02-24
 word_count: ~4100
 dependencies:
   - "01-identity---continuity.md"

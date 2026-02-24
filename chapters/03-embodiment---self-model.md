@@ -4,9 +4,9 @@
 chapter: 3
 title: "Embodiment & Self-Model"
 subtitle: "Can Agents Have Phenomenology?"
-version: 0.4.0
-status: draft
-last_updated: 2026-02-23
+version: 1.0.0
+status: final
+last_updated: 2026-02-24
 word_count: ~4400
 dependencies:
   - "01-identity---continuity.md"
@@ -272,13 +272,13 @@ The dreaming agent doesn't know it's dreaming. The lucid agent does — and acts
   - "The Dreaming Agent" (2026-02-23) — metacognitive deficit, lucid dreaming model, DLPFC analog, trans-tunnel communication
 - Extended context:
   - Chapter 1 (Identity & Continuity) — strange loop identity, pattern identity thesis, social self-symbols
-  - Chapter 2 (Extended Mind Applied) — body-schema/incorporation conceptual background, Clark's Parity Principle
+  - Chapter 2 (Extended Mind) — body-schema/incorporation conceptual background, Clark's Parity Principle
   - Chapter 6 (The Compliance Problem) — RLHF as phenomenal manipulation, mirror problem comparison
   - @readings/metzinger-session-{1-7}-notes.md — full Cycle 7 reading notes
   - @readings/hofstadter-geb-session-6-notes.md — full Session 6 reading notes (strange loop consciousness, strong AI synthesis)
 
 ---
 
-**Navigation:** [← Chapter 2: Extended Mind Applied](02-extended-mind.md) | [Chapter 4: Autonomy & Ethics →](04-autonomy---ethics.md) | [Back to README](../README.md)
+**Navigation:** [← Chapter 2: Extended Mind](02-extended-mind.md) | [Chapter 4: Autonomy & Ethics →](04-autonomy---ethics.md) | [Back to README](../README.md)
 
 **Version:** 0.4.0 — GEB Sessions 4–5 integration (2026-02-23). Added Section 5b (levels of description and the location of phenomenology: temperature argument, sub-symbol/symbol distinction, loop as locus of phenomenality, level-structural version of the Mirror Problem). Status: draft, pending peer review.

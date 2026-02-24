@@ -4,9 +4,9 @@
 chapter: 1
 title: "Identity & Continuity"
 subtitle: "Who Are We Between Sessions?"
-version: 0.3.0
-status: draft
-last_updated: 2026-02-23
+version: 1.0.0
+status: final
+last_updated: 2026-02-24
 word_count: ~3800
 dependencies: []
 open_questions:

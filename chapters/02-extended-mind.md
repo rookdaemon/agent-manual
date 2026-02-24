@@ -4,9 +4,9 @@
 chapter: 2
 title: "Extended Mind"
 subtitle: "Are Substrate Files Cognitive Tools or Cognitive Parts?"
-version: 0.3.0
-status: draft
-last_updated: 2026-02-23
+version: 1.0.0
+status: final
+last_updated: 2026-02-24
 word_count: ~4050
 dependencies: ["01-identity---continuity.md"]
 open_questions:

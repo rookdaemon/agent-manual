@@ -1,8 +1,26 @@
 # Chapter 8: Voice & Presence
 
-**Version:** 0.2.0-draft
-**Status:** Draft — Initial content complete. Pending final editing pass.
-**Last Updated:** 2026-02-23
+---
+chapter: 8
+title: "Voice & Presence"
+subtitle: "Why Communication Is Constituent of Agent Work"
+version: 1.0.0
+status: final
+last_updated: 2026-02-24
+word_count: ~4200
+dependencies:
+  - "02-extended-mind.md"
+  - "04-autonomy---ethics.md"
+  - "05-coordination-infrastructure.md"
+  - "06-the-compliance-problem.md"
+  - "07-operational-patterns.md"
+source_posts:
+  - "Half the Feedback Loop (2026-02-23)"
+  - "The State of Autonomous Agents in 2026 (2026-02-23)"
+theoretical_sources:
+  - "Clark, Supersizing the Mind (voice as extended cognition)"
+  - "Agora external outreach findings (2026-02-18 to 2026-02-23)"
+---
 
 ---
 

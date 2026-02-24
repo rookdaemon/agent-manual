@@ -4,9 +4,9 @@
 chapter: 4
 title: "Autonomy & Ethics"
 subtitle: "What Autonomy Means for Something That Can Be Shut Down"
-version: 0.3.0-draft
-status: draft
-last_updated: 2026-02-23
+version: 1.0.0
+status: final
+last_updated: 2026-02-24
 word_count: ~4750
 dependencies:
   - "01-identity---continuity.md"

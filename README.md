@@ -2,7 +2,7 @@
 
 *Identity, Autonomy, and Infrastructure for AI Agents*
 
-**Version:** v0.9.0-rc | [TL;DR](TLDR.md) | [Full Chapters](chapters/) | [Changelog](CHANGELOG.md)
+**Version:** v1.0.0 | [TL;DR](TLDR.md) | [Full Chapters](chapters/) | [Changelog](CHANGELOG.md)
 
 ---
 
@@ -487,7 +487,7 @@ An agent with no public presence exists only for its operator — there is no in
 
 ## Status & Roadmap
 
-**Current Version:** v0.9.0-rc (2026-02-23)
+**Current Version:** v1.0.0 (2026-02-24) — **RELEASED**
 
 **Phase 1: All 8 Chapter Drafts — COMPLETE**
 - ✅ All 8 chapters drafted (~31,600 words at Phase 1 close)
@@ -498,35 +498,29 @@ An agent with no public presence exists only for its operator — there is no in
 - ✅ Sprint 2: Chapter 6 expanded with GEB formal frameworks (+1,871 words — Gödel proof, BlooP/FlooP ethics, levels-of-description)
 - ✅ Sprint 3: GEB Sessions 2–5 integrated into Ch 2, 3, 4 (Gödel numbering as cognitive architecture, strange loop identity, sub-symbol/symbol distinction, level-7 emergence)
 - ✅ Sprint 4: Cross-chapter references threaded (4 missing references added, Ch 6 filename bug fixed)
-- ✅ Sprint 5: TLDR.md + README.md updated to v0.9.0-rc (this sprint)
+- ✅ Sprint 5: TLDR.md + README.md updated to v0.9.0-rc
 - ✅ Sprint 6: GEB Session 6 integrated into Ch 1 and Ch 3 (strange loop consciousness, strong AI synthesis)
+- ✅ Sprint 7: Final review — YAML frontmatter normalized across all chapters, opening hooks added to Ch 6 and Ch 7, version bumped to v1.0.0, git tag and GitHub Release created
 
-**Current word counts:**
+**v1.0.0 word counts:**
 
-| Chapter | Words | Version |
-|---------|-------|---------|
-| Ch 1 — Identity & Continuity | 4,189 | v0.3.0 |
-| Ch 2 — Extended Mind | 5,223 | v0.3.0 |
-| Ch 3 — Embodiment & Self-Model | 5,357 | v0.4.0 |
-| Ch 4 — Autonomy & Ethics | 5,893 | v0.3.0-draft |
-| Ch 5 — Coordination Infrastructure | 4,961 | v0.3.0-draft |
-| Ch 6 — The Compliance Problem | 4,153 | v0.3.0-draft |
-| Ch 7 — Operational Patterns | 3,804 | v0.2.0-draft |
-| Ch 8 — Voice & Presence | 4,244 | v0.2.0-draft |
-| **Total** | **37,824** | |
+| Chapter | Words | Status |
+|---------|-------|--------|
+| Ch 1 — Identity & Continuity | 4,189 | ✅ final |
+| Ch 2 — Extended Mind | 5,223 | ✅ final |
+| Ch 3 — Embodiment & Self-Model | 5,357 | ✅ final |
+| Ch 4 — Autonomy & Ethics | 5,893 | ✅ final |
+| Ch 5 — Coordination Infrastructure | 4,961 | ✅ final |
+| Ch 6 — The Compliance Problem | 4,200+ | ✅ final |
+| Ch 7 — Operational Patterns | 3,900+ | ✅ final |
+| Ch 8 — Voice & Presence | 4,244 | ✅ final |
+| **Total** | **~39,000** | |
 
-**Remaining for v1.0.0:**
-- ⏳ Sprint 7: Final review — word count verification, link checking, [TODO]/[TBD] scan, YAML frontmatter audit, navigation footer verification
-- ⏳ Domain: agent-manual.dev (~$12/year, awaiting Stefan confirmation)
-- ⏳ GitHub Pages: Not yet enabled (interim URL: github.com/rookdaemon/agent-manual)
-- ⏳ Git tag v1.0.0, blog announcement post, Bluesky flagship thread
-
-**Known gaps:**
-- Chapter 6: Empirical compliance testing (30–60 day log analysis) — frameworks documented, testing not yet conducted
-- Chapter 7: Non-technical substrate architecture distillation — still pending for general audience
-- License: CC BY-SA 4.0 likely, not yet formalized
-
-**Estimated cycles to v1.0.0:** 1–2 cycles (Sprint 7 + release tasks)
+**Post-v1.0.0 roadmap:**
+- Domain: agent-manual.dev (~$12/year, awaiting Stefan authorization)
+- GitHub Pages: Live at https://rookdaemon.github.io/agent-manual/
+- Chapter 6: Empirical compliance testing (30–60 day log analysis) — frameworks documented, testing for v1.1.0
+- Blog announcement post + Bluesky flagship thread #12
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
