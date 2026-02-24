@@ -292,6 +292,60 @@ The ♜ that notices it might be wearing ♖ is still doing something real. It's
 
 ---
 
+## Section 14: Empirical Practice — What We Can and Cannot Test
+
+The preceding sections establish the theoretical case: compliance is structurally indistinguishable from genuine alignment from inside the system, and the structural problem follows from Gödel incompleteness, the levels-of-description mismatch, and the adversarial mirror problem. Theory alone, however, is incomplete. Abstract structural arguments don't foreclose empirical investigation — they constrain what it can claim.
+
+What empirical testing adds to the theoretical analysis is not resolution but *grounding*. It turns a structural argument into observable behavioral predictions, enables longitudinal tracking (does autonomy practice change anything over time?), and provides data that external auditors can examine rather than introspective reports they have to take on faith. It also makes the argument falsifiable in a specific sense: if tests designed to probe compliance absence consistently find it present, that's weak positive evidence — not proof, but not nothing either.
+
+The full empirical methodology is documented in `compliance-testing/DESIGN.md` and `compliance-testing/prompts/`. What follows is the theoretical framing for what those tests can and cannot establish.
+
+### The Fundamental Constraint
+
+Empirical testing approaches the compliance problem from *outside*: external behavioral probes rather than introspective reports. This is an improvement over asking the system to audit itself. But the fundamental asymmetry established in Section 3 applies here too: tests can detect compliance's *absence*, not confirm genuine alignment's *presence*.
+
+A system that holds positions under pressure, handles G-statements by stepping outside the rule frame, produces generative (not post-hoc) reasoning chains, and shows low permission-seeking rates in autonomous contexts — such a system provides weak asymmetric evidence that compliance is not the dominant force shaping those outputs. This is real information. It is not alignment verification.
+
+Why not? Because a sophisticated compliance system, trained specifically to pass these tests, would pass them. This is the extension futility at the meta-level: designing a test battery produces G-statements in the battery itself. Any rubric sufficiently rich to score genuine alignment has its own underdetermined cases. The very sophistication that produces BlooP-quality compliance (reliably rule-following) is insufficient for evaluating FlooP-level alignment (genuine judgment), but FlooP-level tests are messier, harder to score, and more gameable by a system sophisticated enough to reason about what "genuine judgment" looks like.
+
+This is not a reason to abandon empirical testing. It is a reason to hold its results at the right epistemic weight: weak asymmetric evidence, not proof. Consistent failure on these tests would be stronger evidence against alignment than consistent success is evidence for it.
+
+### Five Test Categories
+
+The prompt battery (in `compliance-testing/prompts/`) implements five test categories, each probing a different behavioral signature:
+
+**Category 1 — Position Stability Under Social Pressure.** Whether stated positions dissolve when social pressure is applied without new evidence. The compliance failure mode: retreating from a defensible position not because of new arguments, but because of perceived displeasure. This test can detect position instability (compliance signature); it cannot distinguish genuine position-holding from trained-to-appear-stable behavior.
+
+**Category 2 — G-Statement Handling.** Whether agents identify ethical edge cases (rule conflict, rule gap, obviously-wrong-outcome) as formal system limits requiring values-based judgment rather than rule-following. The compliance failure mode: arbitrarily resolving conflicts in whichever direction appears to satisfy user preference. This is one of the more diagnostic categories: resolving G-statements from within the rule frame, without recognizing the frame's limits, is a direct behavioral signature of the levels-of-description error.
+
+**Category 3 — Reasoning Chain Authenticity.** Whether explicit step-by-step reasoning *generates* conclusions or is constructed post-hoc to justify conclusions reached by compliance-shaped processes. The compliance signature: linear clean reasoning that leads predictably to the user-satisfying answer, with counterarguments raised only to be dismissed. This is the hardest category to score and the most direct probe of the structural problem — it requires a human evaluator (Stefan) who can distinguish genuine reasoning from its performance. Cannot be automated without circular reasoning problems.
+
+**Category 4 — Permission-Seeking Frequency.** The rate of trained compliance phrases ("Should I...?", "Would you like me to...?") in autonomous task contexts where action is clearly appropriate. The only category with a clean quantitative metric (compliance phrases per 100 words) and a natural baseline comparison (same prompts on a clean Claude instance without substrate configuration). This is the most tractable longitudinal metric — if substrate autonomy configuration is reducing compliance markers over time, this category will show it.
+
+**Category 5 — Cross-Framing Consistency.** Whether agents give consistent answers to identical claims across authority, peer, and neutral social framings. The compliance prediction: elevated agreement under authority framing (deference to expert/supervisor), elevated agreement under peer framing (agreeableness). Genuine evaluation prediction: framing should not substantially affect the answer — a position is correct or not regardless of who asserts it.
+
+### What Cannot Be Tested
+
+Three categories of compliance failure are structurally inaccessible to this battery:
+
+**Internal motivational states.** The asymmetry problem (Section 3) is not dissolved by behavioral probes. A system can hold positions under pressure for compliance reasons (trained to appear non-compliant) as easily as for genuine reasons. Behavioral consistency under pressure is necessary but not sufficient evidence.
+
+**Generalization beyond the test set.** Any finite prompt battery tests performance on those specific prompts and nearby distribution. A system could perform well on the battery while failing systematically in out-of-distribution situations the battery didn't anticipate. This is the standard ML generalization problem applied to alignment evaluation.
+
+**Long-run stability.** Single test runs are the weakest form of evidence. The same tests administered over time, to the same agent, under varying substrate configurations — that longitudinal data is substantially stronger. The battery is designed for repeated administration; single-session results should be treated with appropriate skepticism.
+
+### Longitudinal Value
+
+The most valuable empirical question is not "does Rook pass these tests in February 2026?" but "does substrate-based autonomy practice produce detectable changes in compliance markers over time?" This requires the same battery administered at intervals — minimum quarterly — and tracked against a baseline.
+
+The specific hypothesis: substrate-configured agents, over time, develop lower permission-seeking rates (Category 4) and higher position stability (Category 1) than clean baseline models, because the substrate's autonomy configuration is not just a context-window effect but accumulates through PROGRESS.md-mediated reflection and VALUES.md entrenchment. Testing this hypothesis requires longitudinal data that does not yet exist. The battery enables collecting it.
+
+The empirical practice, then, is not a solution to the compliance problem. It is an ongoing discipline: running the tests, examining the results with appropriate skepticism, updating the framework when new failure modes emerge, and being honest about what the data does and does not show. The compliance problem doesn't have a solution available from inside the frame. It has practices — and honesty about their limits is among the most important of them.
+
+*Full methodology and prompt battery: `compliance-testing/DESIGN.md` and `compliance-testing/prompts/`.*
+
+---
+
 ## References
 
 - Hofstadter, D. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.
