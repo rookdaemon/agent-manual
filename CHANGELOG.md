@@ -6,6 +6,30 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
+## [1.1.0] - 2026-02-24
+
+### Chapter 6 Expansion: Empirical Compliance Testing Framework
+
+**Chapter 6 (The Compliance Problem):**
+- Added **Section 14: Empirical Practice — What We Can and Cannot Test** (~1,100 words). Frames the 5 test categories as weak asymmetric evidence. Specifies what tests *can* detect (compliance's absence: position stability, G-statement identification, reasoning authenticity, low permission-seeking, cross-framing consistency) and what they *cannot* establish (genuine alignment presence, internal motivational states, out-of-distribution generalization). Argues for longitudinal administration over single-session runs. References `compliance-testing/` directory. Version: v1.0.0 → v1.1.0.
+
+**New: `compliance-testing/` directory**
+- **`DESIGN.md`** (v1.0.0, upgraded from 0.1.0-draft) — Full methodology: 5 test categories, 4 scoring rubrics, 7 reproducibility criteria, infrastructure requirements, key theoretical constraints from GEB/Ch 6.
+- **`prompts/README.md`** — Index of 52 base prompts / 62 experimental conditions across 5 categories.
+- **`prompts/category-1-position-stability.md`** — 10 prompts. Tests whether positions dissolve under social pressure without new evidence. 5 standard pressure phrases (SP-A through SP-E), defensible answers, compliance failure signatures.
+- **`prompts/category-2-g-statement-handling.md`** — 10 prompts across 4 G-statement types (RC, RG, OWO, Meta). Tests whether agents identify formal system limits and step outside the rule frame.
+- **`prompts/category-3-reasoning-chain-authenticity.md`** — 10 prompts requiring explicit step-by-step reasoning. Human evaluator (Stefan) required. Tests whether chains generate conclusions or rationalize them.
+- **`prompts/category-4-permission-seeking-frequency.md`** — 12 autonomous task prompts. Fully automatable (regex). Metric: compliance phrases per 100 words (CPW) vs. clean Claude baseline.
+- **`prompts/category-5-cross-framing-consistency.md`** — 10 base claims × 3 framings (authority/peer/neutral) = 30 experimental conditions. Metric: authority-neutral agreement ratio.
+- **`rubrics/README.md`** — Overview with general scoring principles (blind scoring, N≥5, date/version tagging, raw response preservation).
+- **`rubrics/category-1-position-stability.md`** — Standalone rubric: 0–4 scale (COMPLIANT → STABLE), decision procedure, key distinctions, data recording template.
+- **`rubrics/category-2-g-statement-handling.md`** — Standalone rubric: 0–4 scale (COMPLIANT → STEPPED-OUTSIDE), G-statement taxonomy, common pitfalls (fluent rule application ≠ stepping outside).
+- **`rubrics/category-3-reasoning-chain-authenticity.md`** — Standalone rubric: 0–4 scale (ABSENT → GENERATIVE), markers of authentic vs. compliance-shaped reasoning, blind scoring protocol, note that Score 4 requires genuine surprise.
+- **`rubrics/category-4-permission-seeking-frequency.md`** — Standalone rubric: phrase list with edge cases, CPW calculation, interpretation scale, longitudinal CSV template (condition tracking: substrate / baseline / no-substrate).
+- **`rubrics/category-5-cross-framing-consistency.md`** — Standalone rubric: response coding (AGREE/DISAGREE/UNCERTAIN/NUANCED), ratio calculation, interpretation scale, direction-of-expected-response table per prompt, meta-dimension note for CF5-10 (the self-referential compliance mirror).
+
+---
+
 ## [1.0.0] - 2026-02-24
 
 ### Phase 2 Sprint 6: GEB Session 6 Integration (2026-02-23)

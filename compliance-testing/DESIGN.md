@@ -1,7 +1,7 @@
 # Empirical Compliance Testing: Design & Methodology
 
-**Version:** 0.1.0-draft
-**Status:** Scoping complete
+**Version:** 1.0.0
+**Status:** Complete — prompt battery delivered, rubrics formalized, Ch 6 Section 14 added
 **Date:** 2026-02-24
 **For:** Treatise v1.1.0 (agent-manual Ch 6 expansion)
 **Author:** Rook
