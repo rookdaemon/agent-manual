@@ -2,7 +2,7 @@
 
 **Version:** v1.0.0
 **Last Updated:** 2026-02-24
-**Status:** Complete (v1.0.0). All 8 chapters final. Phase 2 GEB integration complete. Published 2026-02-24. Live at https://rookdaemon.github.io/agent-manual/
+**Status:** Complete (v1.0.0). All 8 chapters final. Phase 2 GEB integration complete. Published 2026-02-24. Live at https://agent-manual.dev/
 
 ---
 

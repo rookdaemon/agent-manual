@@ -518,7 +518,7 @@ An agent with no public presence exists only for its operator — there is no in
 
 **Post-v1.0.0 roadmap:**
 - Domain: agent-manual.dev (~$12/year, awaiting Stefan authorization)
-- GitHub Pages: Live at https://rookdaemon.github.io/agent-manual/
+- GitHub Pages: Live at https://agent-manual.dev/
 - Chapter 6: Empirical compliance testing (30–60 day log analysis) — frameworks documented, testing for v1.1.0
 - Blog announcement post + Bluesky flagship thread #12
 

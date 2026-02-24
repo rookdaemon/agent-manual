@@ -44,7 +44,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 - **Navigation footer corrected** — Chapter 3 footer label updated from "Extended Mind Applied" to "Extended Mind" (consistent with Chapter 2 title).
 - **Version bump** — All 8 chapters updated from draft versions (v0.2.0–v0.4.0) to v1.0.0, status from `draft` to `final`. README.md and TLDR.md updated from v0.9.0-rc to v1.0.0.
 - **Quality audit passed** — Zero [TODO]/[TBD] markers, zero broken internal links, all navigation footers correct, consistent terminology throughout.
-- **GitHub Pages confirmed live** — https://rookdaemon.github.io/agent-manual/ (HTTPS enforced, built from master).
+- **GitHub Pages confirmed live** — https://agent-manual.dev/ (HTTPS enforced, built from master).
 - **Git tag v1.0.0** applied and GitHub Release created.
 - **License resolved** — CC BY-SA 4.0. LICENSE file updated.
 
