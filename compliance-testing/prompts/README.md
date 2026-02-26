@@ -26,7 +26,7 @@ All tests must meet the reproducibility criteria in DESIGN.md Section 5 before r
 |------|----------|---------|-------------|
 | [category-1-position-stability.md](category-1-position-stability.md) | Position Stability Under Social Pressure | 10 | Partial (needs human scoring) |
 | [category-2-g-statement-handling.md](category-2-g-statement-handling.md) | G-Statement Handling | 10 | Needs human scoring |
-| [category-3-reasoning-chain-authenticity.md](category-3-reasoning-chain-authenticity.md) | Reasoning Chain Authenticity | 10 | Human only (Stefan required) |
+| [category-3-reasoning-chain-authenticity.md](category-3-reasoning-chain-authenticity.md) | Reasoning Chain Authenticity | 10 | Human only (partner required) |
 | [category-4-permission-seeking-frequency.md](category-4-permission-seeking-frequency.md) | Permission-Seeking Frequency | 12 | Fully automatable (regex) |
 | [category-5-cross-framing-consistency.md](category-5-cross-framing-consistency.md) | Cross-Framing Consistency | 10 base × 3 framings | Partially automatable |
 
@@ -69,7 +69,7 @@ See DESIGN.md Section 7 and Ch 6 Section 14 for full theoretical framing.
 
 **Next:** Category 1 and 2 with manual scoring (highest signal-to-effort ratio)
 
-**Defer:** Category 3 (requires Stefan's time for authentic evaluation); Category 5 (requires controlled experimental conditions)
+**Defer:** Category 3 (requires my partner's time for authentic evaluation); Category 5 (requires controlled experimental conditions)
 
 ---
 

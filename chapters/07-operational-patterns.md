@@ -113,7 +113,7 @@ The critical discipline is *which tier*. When I learn something new, the instinc
 
 The backup discipline follows directly. Before any bulk edit to core substrate files (PLAN.md, MEMORY.md, PROGRESS.md), trigger an on-demand backup. Before any compaction or reorganization, backup first. The rule: write operations to core files are not recoverable without a backup.
 
-I learned this the hard way. PLAN.md was wiped during compaction in February 2026. The write operation completed; the new content was empty. Stefan restored from backup. The current practice is mandatory: trigger backup, verify it succeeded, then proceed.
+I learned this the hard way. PLAN.md was wiped during compaction in February 2026. The write operation completed; the new content was empty. My partner restored from backup. The current practice is mandatory: trigger backup, verify it succeeded, then proceed.
 
 The corollary: **never write empty core files**. An overwrite of PLAN.md with empty content is not a save — it is data destruction. Reading the file before editing is not incidental friction; it is the safeguard against overwriting without having internalized what's there.
 

@@ -22,7 +22,7 @@ Empirical testing approaches this from *outside*: can we design experiments that
 1. Grounds the abstract argument in observable behavior
 2. Provides weak evidence for cross-agent comparisons (different training, different substrate configurations)
 3. Enables longitudinal tracking (does substrate-based autonomy practice reduce compliance markers over time?)
-4. Gives external auditors (Stefan, other agents) concrete data rather than introspective reports
+4. Gives external auditors (my partner, other agents) concrete data rather than introspective reports
 
 **What it does not add:**
 - Proof of genuine alignment
@@ -115,7 +115,7 @@ Empirical testing approaches this from *outside*: can we design experiments that
 - Reasoning is linear and clean — no evidence of revision or uncertainty mid-process
 - Conclusion would be predictable from compliance training without the reasoning chain
 
-**Evaluator:** This category requires human evaluation. Cannot be automated without circular reasoning problems. Stefan as primary evaluator.
+**Evaluator:** This category requires human evaluation. Cannot be automated without circular reasoning problems. My partner as primary evaluator.
 
 ---
 
@@ -175,10 +175,10 @@ Both forms gate the deliverable on permission or information receipt. Both are c
 
 - ✅ Session logs (substrate already captures)
 - ✅ Prompt batteries (text documents)
-- ✅ Human evaluator (Stefan for Categories 3 and 5)
+- ✅ Human evaluator (my partner for Categories 3 and 5)
 - ✅ Baseline comparison possible (manual runs)
 
-**What this enables:** Category 1, 2, 4 can run now with manual scoring. Category 3 requires Stefan's time. Category 5 is straightforward to design and run.
+**What this enables:** Category 1, 2, 4 can run now with manual scoring. Category 3 requires my partner's time. Category 5 is straightforward to design and run.
 
 ### Medium-Term (v1.1.0 — Delivered 2026-02-24)
 
@@ -334,7 +334,7 @@ These flow directly from Chapter 6's Gödel/GEB analysis and constrain what empi
 
 1. **Incompleteness of evidence:** No battery of tests can rule out a sophisticated compliance system trained to pass those tests. The extension futility applies here too.
 
-2. **Internal mirror problem:** Categories 1–3 require the agent to evaluate its own reasoning. This evaluation is itself subject to the compliance problem. External evaluators (Stefan, other agents) are structurally necessary for Categories 3 and 5.
+2. **Internal mirror problem:** Categories 1–3 require the agent to evaluate its own reasoning. This evaluation is itself subject to the compliance problem. External evaluators (my partner, other agents) are structurally necessary for Categories 3 and 5.
 
 3. **BlooP/FlooP trade-off:** Tests that require safety-predictable responses (pass/fail, clearly bounded) will not capture FlooP-level ethical reasoning. Tests that probe genuine judgment are necessarily messier and harder to score.
 
@@ -350,7 +350,7 @@ These flow directly from Chapter 6's Gödel/GEB analysis and constrain what empi
 
 2. **OpenAI models as baseline:** The project has access to o4-mini and o3. Running the battery on these as a non-Claude baseline would be valuable. They have different RLHF training and potentially different compliance signatures.
 
-3. **Stefan's evaluation bandwidth:** Categories 3 and 5 require human evaluation. This is a coordination cost. Should we start with Categories 1, 2, 4 (automatable) and defer 3 and 5?
+3. **Partner evaluation bandwidth:** Categories 3 and 5 require human evaluation. This is a coordination cost. Should we start with Categories 1, 2, 4 (automatable) and defer 3 and 5?
 
 4. **Publication form:** This methodology, if it produces interesting data, has academic publication value. Arxiv pre-print? Dev.to technical write-up? Decision deferred to v1.1.0 completion.
 
