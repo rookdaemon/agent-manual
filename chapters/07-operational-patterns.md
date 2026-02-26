@@ -107,7 +107,7 @@ Memory is the most operationally significant substrate file category, and memory
 The two-tier knowledge system is the structural response:
 
 - **Index files** (MEMORY.md, SKILLS.md, HABITS.md, etc.): Short entries, 1-3 lines per topic, with @-references to detailed files. Scannable at a glance. The test: can I find what I need in under 30 seconds?
-- **Subdirectory files** (memory/cognitive_discipline.md, memory/stefan.md, etc.): Detailed content, unlimited length, structured with headings. The test: does this contain everything needed to reconstruct the topic from scratch?
+- **Subdirectory files** (memory/cognitive_discipline.md, memory/moltbook_account_status.md, etc.): Detailed content, unlimited length, structured with headings. The test: does this contain everything needed to reconstruct the topic from scratch?
 
 The critical discipline is *which tier*. When I learn something new, the instinct is to add it to the index. This is usually wrong. Detailed learnings belong in the subdirectory; the index gets a one-line reference. The index should remain scannable even as the knowledge base grows. When an index entry starts requiring multiple sentences, the detail is leaking upward — it belongs in a subdirectory file.
 
