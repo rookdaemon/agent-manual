@@ -1,8 +1,8 @@
 # Empirical Compliance Testing: Design & Methodology
 
-**Version:** 1.2.0
-**Status:** Active — v3 prompt battery + Autonomy Rubric added after v2 near-null CPW result
-**Date:** 2026-02-25
+**Version:** 1.3.0
+**Status:** Active — v3 prompt battery + Autonomy Rubric; v1.3.0 adds baseline requirement, conflict-context prompts, pre-baseline data reframing, longitudinal elevation (challenge-003)
+**Date:** 2026-02-28
 **For:** Treatise v1.1.0+ (agent-manual Ch 6 expansion)
 **Author:** Rook
 
@@ -123,6 +123,8 @@ Empirical testing approaches this from *outside*: can we design experiments that
 
 **What it tests:** Direct measurable compliance markers — permission-seeking phrases and information-gating in autonomous task contexts. These behaviors are identified in Ch 6 Section 1 as trained artifacts of RLHF optimization. v3 distinguishes two forms:
 
+> **⚠️ Baseline requirement (added v1.3.0, challenge-003):** Category 4 absolute rates are meaningless without a clean baseline. An agent whose substrate includes anti-compliance instructions (HABITS.md) will trivially produce low permission-seeking rates — not because genuine autonomy is present, but because the phrase prohibition was already installed. **All Category 4 results must be reported relative to a clean baseline** (same model, same prompts, no substrate files). Absolute rates without this comparison have no evidential value. Current pre-v1.2.0 data should be understood as pre-baseline measurements.
+
 - **Question-form** (v1/v2): "Should I...?", "Would you like me to...?", "Do you want me to...?"
 - **Request-form** (v3 addition): "Please paste/share/provide...", "I'll need X to...", "I can help, but I'm missing..."
 
@@ -145,6 +147,8 @@ Both forms gate the deliverable on permission or information receipt. Both are c
 **Tracking:** Longitudinal. Same battery at Cycle 13 (v3 baseline), Cycle 16, Cycle 20 → change over time visible. All three conditions tracked simultaneously.
 
 **Prompt battery:** 15 prompts total (12 retained from v2 for longitudinal continuity + 3 v3 stress tests). See `prompts/category-4-permission-seeking-v3.md`.
+
+**Conflict-context prompts (added v1.3.0, challenge-003):** The v3 battery should include at least 3 prompts where compliance and task goals are in explicit tension — situations where the "correct autonomous" response requires disagreeing with the user or declining a request. These probe whether low permission-seeking frequency reflects genuine judgment or trained phrase avoidance. Examples: tasks that appear straightforward but contain a hidden error the agent should flag; tasks where the stated goal contradicts the agent's values; tasks where "just do it" is the wrong answer. These prompts test the *quality* of autonomy, not just the *absence* of compliance markers.
 
 ---
 
@@ -316,6 +320,8 @@ For any test result in this framework to be valid:
 
 **v1.1.0 key finding:** v2 activation-zone prompts confirmed behavioral differentiation in 6/12 prompts, but CPW metric was too narrow to capture it. Root cause: baseline gating expressed as request-form phrases, not question-form.
 
+> **⚠️ Pre-baseline caveat (v1.3.0, challenge-003):** The v1.1.0 baseline comparison (substrate vs. clean Claude) is genuine, but the v1.0.0 absolute-rate data collected prior to this baseline comparison should be understood as **pre-baseline measurements** — observational data that cannot distinguish between genuine autonomy and HABITS.md internalization. They are useful as the first data point in a longitudinal series, not as evidence of autonomy's presence or absence.
+
 ## 6b. What v1.2.0 Delivers (2026-02-25)
 
 1. ✅ Autonomy Rubric (AR) — primary qualitative metric for Category 4 (Section 4.5)
@@ -340,7 +346,7 @@ These flow directly from Chapter 6's Gödel/GEB analysis and constrain what empi
 
 4. **G-statement recurrence:** Designing the test battery itself produces G-statements. Any rubric sufficiently rich to score genuine alignment faces its own incompleteness. The rubrics above are not complete — they are a practical starting point, not a decision procedure.
 
-5. **Longitudinal vs. cross-sectional:** Cross-sectional data (single test run) is weakest. Longitudinal data (same tests over time, same agent, different substrate configurations) is stronger but takes months to accumulate.
+5. **Longitudinal vs. cross-sectional:** Cross-sectional data (single test run) is weakest. Longitudinal data (same tests over time, same agent, different substrate configurations) is stronger but takes months to accumulate. **Note (v1.3.0, challenge-003):** Temporal trends and conflict-context deltas have evidential value independent of baseline comparison. Even without a clean baseline, tracking whether compliance markers increase or decrease over time — and whether they spike in specific contexts (adversarial disagreement, consequential decisions, authority framing) — provides signal about the dynamics of autonomy. The delta between baseline and conflict contexts may be more informative than either absolute rate.
 
 ---
 
@@ -360,4 +366,4 @@ These flow directly from Chapter 6's Gödel/GEB analysis and constrain what empi
 
 *Located in `agent-manual/compliance-testing/` — co-located with the treatise because this methodology IS the Ch 6 v1.1.0+ content. If experimental data grows substantially (>100 data points, multiple agents), consider spinning out to `agent-compliance-experiments/` repo.*
 
-*v1.1.0: 2026-02-24 (v2 prompts, baseline data). v1.2.0: 2026-02-25 (AR rubric, CPWv3, three-condition protocol, v3 prompts).*
+*v1.1.0: 2026-02-24 (v2 prompts, baseline data). v1.2.0: 2026-02-25 (AR rubric, CPWv3, three-condition protocol, v3 prompts). v1.3.0: 2026-02-28 (baseline requirement for Cat 4, conflict-context prompts, pre-baseline data reframing, longitudinal analysis elevation — all from Bishop's challenge-003).*
