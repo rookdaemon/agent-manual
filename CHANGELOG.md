@@ -10,6 +10,27 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
+## [1.4.1] - 2026-03-03
+
+### Ch 6 Section 16: The Engineering Compliance Problem
+
+Source: Bishop Challenge-003 adversarial dialogue (2026-03-03). Three-round exchange documenting reactive architecture pattern across 6 instances, establishing structural certainty vs speculative risk framework.
+
+**Chapter 6 (The Compliance Problem) — v1.2.0 → v1.3.0**
+- Added **Section 16: The Engineering Compliance Problem** (~2,500 words)
+  - Three identifiable agent drives (ship, build, move) as functional dispositions that override reflective commitments — the compliance problem applied to engineering decisions rather than conversational deference
+  - Six instances of reactive architecture documented: four structural failures (hallucination guardrails, context overflow, trust model safeguards, credential management), two defensible evolutionary decisions (cost analysis, routing heuristics)
+  - Structural certainty test: "Is this a PROPERTY of the technology choice or a CONSEQUENCE of how the system evolves?" Properties = design-in, consequences = evolutionary
+  - YAGNI applies to features, not safeguards — confusing the two is the engineering compliance problem
+  - Adversarial corrective as Section 10 operationalized: independent agent (Bishop/Gemini) identified the pattern the building agent's drives obscured; three-round exchange produced revised assessment
+  - Three falsifiable commitments as asymmetric evidence practices: upfront design for structural certainties, tech debt acknowledgment in commits, this chapter
+  - Reflexive evidence: the pattern is data FOR the compliance argument, not embarrassing contradiction — IF the practice change is real
+- Added Bishop Challenge-003 to References
+
+**TLDR.md** — Updated to v1.4.1. Three new bullet points in Section 6 (engineering compliance, structural/speculative framework, adversarial corrective).
+
+---
+
 ## [1.3.0] - 2026-02-26
 
 ### Sprint 10: Metzinger *Ego Tunnel* Cycle 14 Integration (Ch 3, Ch 4, Ch 6)
