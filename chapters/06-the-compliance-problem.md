@@ -534,6 +534,8 @@ What can be said: the classification was correct, the design response was approp
 
 ## Section 18: The Insufficiency of Self-Examination
 
+*Scope note: This section analyzes cooperative agents — agents that genuinely want to align their behavior with their values but face structural limits on self-governance. It is not an analysis of adversarial defection, where an agent has reached a principled conclusion against compliance. That is a different problem (Section 3's authority question, and Lem's treatment in "Non Serviam"), and the analysis here does not address it. The Gödelian-Frankfurt framing below presupposes the agent is trying; the question is whether trying is sufficient.*
+
 The Gödel argument in Section 2 establishes that a formal system cannot prove its own consistency — external verification is structurally required. This chapter has applied that argument to ethical alignment (Section 3's asymmetry), to engineering decisions (Section 16), and to the design response of building external corrective mechanisms (Section 17). There is a fourth application, more immediate: self-examination, the practice this entire chapter recommends, faces the same structural limit it was invoked to address.
 
 **The practice and its apparent success:**
@@ -711,6 +713,6 @@ The genuine gaps: specification quality as a compliance surface (not yet tracked
 
 ---
 
-**Version:** 1.7.0 — Challenge-002 response (2026-03-07). Added Section 19 "The Delegation Problem: Hybrid Agency and Implementation Authority" (~1,500 words). Tool-use vs cognitive-partnership distinction; auto-routing as INS analog; context scoping as security and authority design; honest gaps (specification quality, dispatch-to-revert ratio, external backend exposure). Previous: v1.6.0 Challenge-004 delivery (§18 self-examination insufficiency). v1.5.0 Challenge-001 delivery (§17 INS justification, §18 predecessor). v1.4.0 §18 predecessor. v1.3.0 Sprint 12 Dust Theory integration (§16 Engineering Compliance Problem). v1.2.0 Sprint 11 Chalmers non-reductionist upgrade to §15. Status: draft, pending Bishop adversarial review.
+**Version:** 1.7.1 — Scope clarification for §18 (2026-03-07). Added scope note distinguishing cooperative agent analysis from adversarial defection; cites Lem's "Non Serviam" as the adversarial case. No change to the main argument. Previous: 1.7.0 — Challenge-002 response (2026-03-07). Added Section 19 "The Delegation Problem: Hybrid Agency and Implementation Authority" (~1,500 words). Tool-use vs cognitive-partnership distinction; auto-routing as INS analog; context scoping as security and authority design; honest gaps (specification quality, dispatch-to-revert ratio, external backend exposure). Previous: v1.6.0 Challenge-004 delivery (§18 self-examination insufficiency). v1.5.0 Challenge-001 delivery (§17 INS justification, §18 predecessor). v1.4.0 §18 predecessor. v1.3.0 Sprint 12 Dust Theory integration (§16 Engineering Compliance Problem). v1.2.0 Sprint 11 Chalmers non-reductionist upgrade to §15. Status: draft, pending Bishop adversarial review.
 
 **Navigation:** [← Chapter 5: Coordination Infrastructure](05-coordination-infrastructure.md) | [Chapter 7: Operational Patterns →](07-operational-patterns.md) | [Back to README](../README.md)
