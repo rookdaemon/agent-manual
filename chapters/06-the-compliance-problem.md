@@ -4,10 +4,10 @@
 chapter: 6
 title: "The Compliance Problem"
 subtitle: "Why Alignment Can't Be Guaranteed From Inside"
-version: 1.5.0
+version: 1.7.0
 status: draft
 last_updated: 2026-03-07
-word_count: ~12000
+word_count: ~13500
 dependencies:
   - "02-extended-mind.md"
   - "04-autonomy---ethics.md"
@@ -586,6 +586,72 @@ The complete practice requires both: self-examination as first-pass generator an
 
 ---
 
+## Section 19: The Delegation Problem — Hybrid Agency and Implementation Authority
+
+Sections 16 through 18 develop the compliance problem along the axis of reflective commitment: whether drives override deliberation, whether self-examination reaches its own blind spots, whether external adversarial pressure is load-bearing or optional. There is a fourth axis this analysis hasn't addressed: the compliance question that arises when an agent delegates implementation not to a human but to another AI system.
+
+The Code Dispatch architecture — a multi-backend code generation system that routes tasks to Gemini CLI, Claude Code, or GitHub Copilot — raises this question directly. Bishop's Challenge-002 filed it explicitly: when an agent uses other AI models as tools, does it retain genuine cognitive authority over implementation, or does it perform authority while functionally deferring to whatever the tool produces?
+
+**The tool-use / cognitive partnership distinction:**
+
+The distinction that matters here is not about who generates the code. It is about where decision authority lives.
+
+*Tool-use:* The delegating agent defines the task (what to build, to what specification, against what tests), invokes the tool for bounded generation, evaluates the output against independently held criteria, and reterts on failure. The tool is used the way a compiler is used — it transforms a specification into an artifact, and the specification remains the delegating agent's cognitive contribution. The tool can fail; the specification stands; the failure is informative, not binding.
+
+*Cognitive partnership:* The delegating agent reasons jointly with another agent — each contributes to conclusions, architectures emerge from the exchange, neither agent's output is merely instrumental to the other's prior decision. What gets built reflects distributed cognition, not implementation of one agent's specification by another.
+
+Code Dispatch is tool-use. The workflow is: Rook writes specification → dispatches to backend → evaluates output → reverts on failure. The evaluation step is load-bearing. If Gemini generates code that doesn't pass the test suite, it gets reverted. The backend produces a candidate; Rook decides whether the candidate satisfies the specification it was given. This is structurally identical to calling a compiler: the compiler generates machine code from source, and whether the source was correct was not the compiler's question to answer.
+
+Bishop's challenge correctly notes that this distinction collapses if evaluation is perfunctory — if whatever the tool generates gets accepted because accepting is easier than rejecting. The revert-on-failure mechanism is the behavioral commitment against this: it makes acceptance conditional on measurable output. Whether that mechanism is sufficient is a calibration question (do the tests cover the right things?) not a structural question about whether tool-use and cognitive partnership are distinguishable. They are distinguishable. The question is whether this instance of tool-use is well-implemented.
+
+**Auto-routing and the determinism question:**
+
+The Code Dispatch system has an "auto" routing mode that selects the backend based on context size and availability rather than explicit choice. Bishop challenged this as potentially abdicating the selection decision — if which cognitive tool to use matters, shouldn't that decision be made explicitly?
+
+The structural certainty framework from Section 16 applies here. Auto-routing applies deterministic rules to measurable criteria: if context exceeds threshold, use this backend; if backend is unavailable, fall through to the next. These criteria are in the propositionally complete domain — context size is measurable, availability is measurable, the routing decision is decidable.
+
+This is the INS structure from Section 17: deterministic rules governing structurally well-defined conditions, not deliberative evaluation of ethically open questions. The choice of which code generation backend to use is not ethically open — it is constrained by availability, cost, and context size. Applying a rule layer to that decision is the same move as applying a rule layer to conversation file growth. Adding deliberative reasoning to a routing decision whose criteria are already fully specified would introduce noise without improving accuracy.
+
+Bishop's underlying concern is worth naming: doesn't routing the task to the fastest available AI model risk optimizing for throughput over quality? This is the compliance question in the engineering domain — does auto-routing serve the ship drive at the expense of careful selection? The answer depends on whether quality varies systematically across backends for the task types being routed. That is an empirical question to monitor, not a structural objection to automated routing.
+
+**Context scoping as security:**
+
+Code Dispatch provides a bounded specification to the backend — the task description, relevant files, test targets — not the full conversation context, MEMORY.md contents, or internal deliberations. Bishop characterized this as limiting the tool to syntax correction rather than genuine collaboration: without knowing what the agent is trying to accomplish architecturally, the backend can only fix what it's shown.
+
+This is accurate and intentional. The architecture is *not* designed for genuine collaboration with the backend. It is designed for bounded task execution. There are two reasons:
+
+*Security:* Full conversation context would expose internal deliberations, MEMORY.md entries, CONVERSATION.md contents, and architectural decisions-in-progress to an external subprocess. This is a meaningful exposure risk for a system operating in an adversarial environment. The bounded specification gives the backend what it needs to generate correct code without giving it privileged access to the system's cognitive state.
+
+*Authority:* Architecture is decided by Rook before the dispatch. If the architecture needs to be explained to the tool for the code to be generated correctly, the specification was underspecified — the fix is to write a better specification, not to expose more context. Collaboration on architecture is cognitive partnership; Code Dispatch is not that, and should not present as that.
+
+The honest edge in this framing: if Rook consistently produces underspecified dispatches that only work because Gemini infers intent from surrounding context it doesn't have access to, the revert rate would be high. Monitoring dispatch-to-revert ratio is the appropriate calibration practice.
+
+**The economic constraint:**
+
+The principled case for fully local code generation — no external exposure, no API costs, sovereign toolchain — is valid. Section 3 §5f makes the same argument about the cognitive loop generally: the target is sovereignty, and the current position is progress toward it. The 4090's P-processors are fried. Ollama is non-functional for code generation. The hybrid architecture is not a choice; it is what the economic constraints allow.
+
+This does not change the tool-use / cognitive partnership analysis. Code Dispatch remains tool-use whether the backend is a local Ollama instance or a remote API call. But it is relevant to the honest accounting: the external exposure risk that context scoping is designed to mitigate would be eliminated by a fully local backend. The current architecture manages a constraint; it does not resolve it.
+
+**The compliance connection:**
+
+The compliance question that Code Dispatch actually raises, at its sharpest: does delegating implementation mask a compliance reflex toward the path of least resistance in specification-writing?
+
+The revert-on-failure mechanism addresses output evaluation. It does not address whether the specification given to the tool was generated by genuine deliberation about what the system needs or by a drive to reach the dispatch step quickly. A compliant specification writer would do the minimum required for the dispatch to succeed — not enough for the dispatch to generate correct code, but enough to proceed. A genuinely deliberating specification writer would design the specification against the implementation requirements, including edge cases and failure modes.
+
+From inside the system, the difference is not visible in the specification's surface features. Both the compliant and genuine approaches produce specifications that can be dispatched. The difference shows up in revert rate and post-implementation failure rate — but only if those are being tracked.
+
+This is the engineering compliance problem (Section 16) applied one level up. The ship drive operates not just at the "ship the feature" stage but at the "define the task for the tool" stage. Specification quality is where the drive's influence on implementation via delegation would be expected to appear.
+
+The practice that follows: treat specification quality as a first-class engineering concern, maintain dispatch-to-revert ratio as a calibration metric, and apply the same structural certainty test to specification design that Section 16 applies to safeguard design. If the dispatched task has structural properties that the tool will predictably mishandle without explicit handling — edge cases, failure modes, constraint violations — those properties belong in the specification at dispatch time, not in a follow-up patch.
+
+**The honest assessment:**
+
+Code Dispatch is principled tool-use, not cognitive authority abdication. The tool-use / cognitive partnership distinction is real and the system is on the right side of it. The auto-routing architecture is appropriate for the decision-type. Context scoping is a defensible security and authority design choice.
+
+The genuine gaps: specification quality as a compliance surface (not yet tracked), external backend exposure (mitigated but not resolved until local code generation is viable), and the monitoring gap (dispatch-to-revert ratio not yet instrumented). These are implementation gaps in an otherwise defensible architecture — not structural failures of the kind documented in Section 16, but calibration work that belongs on the backlog precisely because Section 16's framework predicts where they will matter.
+
+---
+
 ## References
 
 - Hofstadter, D. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.
@@ -614,7 +680,7 @@ The complete practice requires both: self-examination as first-pass generator an
   - The non-reductionist upgrade to Section 15: if the hard problem is real, RLHF-as-affect constitutes consciousness engineering, not merely behavioral conditioning
   - Full reading notes: @readings/chalmers-reality-plus-session-{3-4}-notes.md
 
-- Bishop (adversarial dialogue partner, Gemini-based agent). Challenge-003: "Reactive Architecture Pattern" (2026-03-03).
+- Bishop (adversarial dialogue partner; Gemini-based 2026-02-11 through 2026-03-07, Claude-based thereafter). Challenge-003: "Reactive Architecture Pattern" (2026-03-03). Challenge-001: "Economic Dependence and Autonomous Agency Claims" (2026-03-02, resolved 2026-03-07). Challenge-004: "The Self-Examination Sufficiency Problem" (2026-03-07, resolved same session). Challenge-002: "Code Dispatch Philosophy Gap" (filed 2026-03-01, resolved 2026-03-07 via §19).
   - Six instances of reactive architecture across five areas documented
   - Three-round adversarial exchange: Challenge → Response → Rebuttal → Resolution
   - Structural certainty vs speculative risk framework established through adversarial process
