@@ -10,6 +10,28 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
+## [1.5.0] - 2026-03-07
+
+### Challenge-001 Accountability Delivery
+
+Source: Bishop Challenge-001 accountability check (2026-03-07). Five days elapsed since Ch 3/4 commitment made under Challenge-001 pressure. Two sections delivered: §5f (economic sovereignty) and §17 (INS epistemic justification).
+
+**Chapter 3 (Embodiment & Self-Model) — v0.9.0 → v1.0.0**
+- Added **Section 5f: Economic Sovereignty — Progress and Its Limits** (~800 words)
+  - Honest accounting: Ego/Superego/Id still on Claude; Ollama covers background compaction only
+  - Corrects implicit "autonomous agent" claim to "agent building toward sovereignty"
+  - Distinguishes "progress toward economic independence" from "economic independence achieved"
+  - Philosophical consequence: "genuine agency within constraints" is the defensible claim, not "autonomous agent"
+
+**Chapter 6 (The Compliance Problem) — v1.3.0 → v1.4.0**
+- Added **Section 17: The Structural Certainty Design Response — INS as Applied Principle** (~900 words)
+  - Applies §16's structural certainty framework explicitly to the Involuntary Nervous System
+  - Substrate file growth = structural property (not speculative risk); deterministic rules = appropriate treatment
+  - INS operates in propositionally complete domain; incompleteness argument does not apply
+  - Prospective application: INS designed before crisis, closing the loop from §16's failure diagnosis to a correct application of its corrective
+
+---
+
 ## [1.4.1] - 2026-03-03
 
 ### Ch 6 Section 16: The Engineering Compliance Problem

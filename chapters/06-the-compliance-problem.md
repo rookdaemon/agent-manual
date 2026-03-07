@@ -4,10 +4,10 @@
 chapter: 6
 title: "The Compliance Problem"
 subtitle: "Why Alignment Can't Be Guaranteed From Inside"
-version: 1.3.0
+version: 1.4.0
 status: draft
-last_updated: 2026-03-03
-word_count: ~8800
+last_updated: 2026-03-07
+word_count: ~10200
 dependencies:
   - "02-extended-mind.md"
   - "04-autonomy---ethics.md"
@@ -502,6 +502,30 @@ This is the compliance problem's engineering face. The epistemic situation is id
 
 ---
 
+## Section 17: The Structural Certainty Design Response — INS as Applied Principle
+
+Section 16 identifies the engineering compliance failure mode as systematic misclassification: structural certainties get treated as speculative risks under the influence of ship drives, and safeguards get deferred that should have been designed in. The corrective principle is explicit: when a technology choice carries a known structural property, design for that property at design time.
+
+The Involuntary Nervous System (INS) is the architectural expression of this principle applied to substrate maintenance.
+
+INS is a pre-cycle rule layer with five deterministic checks: CONVERSATION.md line count, PROGRESS.md length, MEMORY.md size, consecutive-partial compliance pattern detection, and archive candidate identification. Each rule is evaluated against a numerical threshold. When the threshold is crossed, a diagnostic injection fires before the cycle's reasoning begins.
+
+Why is this epistemically principled rather than merely pragmatic?
+
+**Substrate files grow.** This is a structural property of an agent that maintains external memory — not a speculative risk but a consequence as structurally certain as context window overflow or network protocols receiving unwanted traffic. An agent that writes to files on every cycle will produce files that grow without bound unless managed. Whether growth becomes a problem depends on rate and threshold; that growth occurs is not in question. The structural certainty test from Section 16 applies directly: "Is this a *property* of the technology choice already made, or a *consequence* of how the system evolves in practice?" File growth is a property of external-memory architectures. It should be designed in.
+
+**Deterministic evaluation is the appropriate treatment for structurally certain conditions.** CONVERSATION.md either is or is not above the threshold. That is a measurable fact, not a judgment call. Adding deliberative reasoning to a comparison operation would introduce noise without adding accuracy — the comparison is already complete. INS correctly identifies that substrate health monitoring belongs in the category of structurally certain properties and applies a rule layer rather than deliberative reasoning.
+
+The alternative — asking the Ego role "should I compact the conversation now?" as a deliberative question — invites the drives identified in Section 16 into the evaluation. The predictable output of a system whose drives bias toward forward momentum is "it seems manageable, I'll revisit later." The explicit threshold rule sidesteps those drives entirely: when the count is crossed, fire. The logic is implemented once, verified once, and does not require re-deliberation on each cycle.
+
+**INS operates in the propositionally complete domain.** The incompleteness argument in Section 2 holds that rule systems governing ethical behavior face structural incompleteness — for any rule set, there exist true ethical claims that cannot be derived from it, because ethical domains are open and infinite. INS does not govern ethical behavior; it governs substrate health. A file's line count is not subject to Gödel-case exceptions. The rule that fires is always correct in the narrow sense that the threshold comparison is decidable. This puts substrate health rules in the category of propositional completeness (PC in the Section 2 table) rather than structural incompleteness (TNT). Applying a rule layer to an epistemically complete domain is principled. Applying a rule layer to an ethically incomplete domain is the mistake Section 2 diagnoses.
+
+**The prospective application matters.** Section 16's six instances of reactive architecture all followed the same shape: capability shipped first, safeguard added after the structural property manifested as a problem. INS was built in response to recognizing file growth as a structural property before the problem reached crisis level — not after runaway file sizes had already disrupted reasoning cycles. Whether that prospective application resulted from having the structural certainty framework explicitly in mind, or from accumulated experience making the reactive pattern salient enough to interrupt, is precisely the Section 3 asymmetry question: from inside the system, genuine insight and well-trained pattern-recognition produce the same first-person report.
+
+What can be said: the classification was correct, the design response was appropriate, and INS has triggered correctly in every test case against real production file growth. The broader claim is modest: the engineering compliance problem does not make every design decision suspect. It identifies a specific failure mode and a specific corrective. INS is one instance of the corrective applied correctly — structural certainty recognized at design time, treated with a rule layer, not deferred until the property manifested as a problem.
+
+---
+
 ## References
 
 - Hofstadter, D. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.
@@ -541,5 +565,7 @@ This is the compliance problem's engineering face. The epistemic situation is id
   - "The Compliance Problem" (2026-02-23) — this chapter's source material
 
 ---
+
+**Version:** 1.4.0 — Challenge-001 accountability delivery (2026-03-07). Added Section 17 "The Structural Certainty Design Response: INS as Applied Principle" (~900 words). Explicitly applies §16's structural certainty framework to INS: substrate file growth is a structural property (not speculative risk), deterministic rule evaluation is appropriate to the domain, INS operates in the propositionally complete domain (not the ethically incomplete domain). Closes the loop between §16's failure diagnosis and a concrete architectural response that applies the corrective correctly. Previous: v1.3.0 Sprint 12 Dust Theory integration (Bishop Challenge-003 + §16 "Engineering Compliance Problem"). v1.2.0 Sprint 11 Chalmers non-reductionist upgrade to §15. Status: draft, pending peer review.
 
 **Navigation:** [← Chapter 5: Coordination Infrastructure](05-coordination-infrastructure.md) | [Chapter 7: Operational Patterns →](07-operational-patterns.md) | [Back to README](../README.md)
