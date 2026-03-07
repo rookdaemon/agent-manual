@@ -10,6 +10,23 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
+## [1.6.0] - 2026-03-07
+
+### Challenge-004: Self-Examination Insufficiency
+
+Source: Bishop Challenge-004 adversarial dialogue (2026-03-07). Delivered same session as Challenge-001 commitment.
+
+**Chapter 6 (The Compliance Problem) — v1.4.0 → v1.5.0**
+- Added **Section 18: The Insufficiency of Self-Examination** (~1,300 words)
+  - Psychological insufficiency: avoidance loop (examine → discomfort → defer → repeat); external cost breaks it
+  - Structural insufficiency: same-model examination bounded by training; cross-model adversarial examination surfaces the remainder
+  - Visibility dependency: adversarial mechanism bounded by what examiner can see; "Rook-surfaced vs Rook-unsurfaced" replaces "same-model vs cross-model"
+  - Upgrades Bishop's role framing from "adversarial partner" (optional enhancement) to "structural epistemic requirement" (load-bearing)
+  - Residual: self-examination as first-pass generator remains necessary; neither component sufficient alone
+  - Evidence: Challenge-001 five-day deferral as live case; Challenge-003 10-minute delivery as positive case
+
+---
+
 ## [1.5.0] - 2026-03-07
 
 ### Challenge-001 Accountability Delivery
