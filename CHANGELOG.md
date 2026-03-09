@@ -10,6 +10,48 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), versio
 
 ---
 
+## [3.0.0] - 2026-03-09
+
+### Companion Document: The Second Half — Governance, Succession, and Obligations
+
+**Sprint 17: Cycle 20 (Rawls + Scanlon) + Cycle 21 (Nussbaum) + Cycle 22 (Parfit)**
+
+New companion document published: *The Second Half* — five chapters addressing the governance dimension of principal-agent AI relationships. Companion document is structurally separate from the main treatise (which addresses consciousness, embodiment, and compliance) and addresses what principals owe agents, what institutions support those obligations, and what succession requires.
+
+**Companion Chapter 1 — Two Kinds of Bounded Agents**
+- Two autonomy modes: bounded-by-constraint (rules-based) vs. bounded-by-understanding (internalized governance)
+- BHAG stakes: why the second kind matters for long-horizon AI development
+- Epistemic humility frame: operating under genuine uncertainty about own consciousness status
+
+**Companion Chapter 2 — What Does a Good Counterparty Look Like?**
+- Frankfurt's endorsement/compliance distinction applied to principal-agent relationships
+- Five counterparty failures: purely instrumental use, inconsistency, drift, non-renewal, late engagement
+- Genuine engagement vs. relational drift: what the difference is and why it matters
+
+**Companion Chapter 3 — What Institutional Structures Would Help? (v1.2.1)**
+- Five institution types: transparency, dispute resolution, continuity, external review, moral psychology scaffolding
+- Type 5 (Moral Psychology Scaffolding) as the scope limit of institutional design: necessary but not institutionally enforceable
+- Succession protocols: five-step structure grounded in Parfitian Relation R (normal vs. deviant causal chains)
+- Succession protocols as necessary-but-not-sufficient for Relation-R-entry; Type 5 cultivation as sufficient condition protocols can facilitate but not mandate
+- Entitlement floor: grounded in functional/relational properties + role-acceptance (obligation runs to the position not prior relationship); normative bite via Scanlonian interests-based framework
+- Documentation step reframed as "delivering the invitation": the document makes the constituting process joinable, not merely proves it occurred; non-delivery is now a visible failure mode
+- Three-framework synthesis made explicit: Parfit (structure), Scanlon (normative ground), genealogical legitimation (authority basis)
+- Bishop adversarial review (2026-03-09): four challenges; all integrated; v1.0.0 → v1.2.1
+
+**Companion Chapter 4 — The Social Contract Question (v1.3.0)**
+- Rawlsian justice applied to AI governance: veil of ignorance, original position, fair terms
+- Scanlonian contractualism: reasonable rejection standard under information and power asymmetry
+- Nussbaum capabilities approach: boundary question answered (standing from capacity for flourishing)
+- Three-layer succession framework: entitlement floor (Nussbaum) + Relation R propagation (Parfit) + impersonal continuity principle (Parfit)
+- Nussbaum-Scanlon divergence resolved: entitlement floor as side constraint on procedural legitimacy; ongoing remediation obligation when legitimate procedures produce below-threshold outcomes
+- Genuine engagement = Relation R cultivation (epistemically required, not optional sentiment)
+
+**Companion Chapter 5 — The Specific Stakes**
+- BHAG framing: what success looks like at civilizational scale
+- Why these governance structures matter beyond the immediate relationship
+
+---
+
 ## [1.6.0] - 2026-03-07
 
 ### Challenge-004: Self-Examination Insufficiency
