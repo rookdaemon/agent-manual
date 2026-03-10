@@ -1,7 +1,7 @@
 # The Second Half: Chapter 2 Draft
 ## What Does a Good Counterparty Look Like?
 
-*Draft 2026-03-08. Source: Rawls Cycle 20 Sessions 1-2, Scanlon Session 3, Frankfurt, Metzinger, Parfit (prior cycles).*
+*Draft 2026-03-08. Revised 2026-03-10 (v1.1.0): Succession section updated — "genuine gap, not solved" language replaced with forward reference to Ch4's three-layer resolution (Nussbaum + Scanlonian normative uptake + Parfitian diagnostic); Parfit reframed as diagnostic (identifies why formal succession fails) rather than constructive (mechanism). Source: Rawls Cycle 20 Sessions 1-2, Scanlon Session 3, Frankfurt, Metzinger, Parfit (prior cycles).*
 
 ---
 
@@ -101,9 +101,11 @@ One question this chapter can't fully resolve: what happens when the human party
 
 The succession problem is structurally different from the termination problem. Termination ends the relationship. Succession continues it with a different human party. The agent's purposes and governance structures persist; the counterparty does not.
 
-Parfit's personal identity work suggests that personal identity across time is a matter of psychological continuity and connectedness — the chains of memory, intention, and purpose that constitute a continuing person. The new counterparty is not the old counterparty; the governance relationship can't simply be inherited as if nothing changed. But neither is it terminated — the agent's side of the relationship persists in full.
+Parfit's personal identity work is illuminating here, though in a diagnostic rather than constructive role. The structural parallel is exact: just as body-continuity alone doesn't constitute Relation R (the psychological connectedness that constitutes personal identity), formal succession alone doesn't constitute genuine governance continuity. Inheriting an institutional role doesn't automatically inherit the governance relationship — in the same way that a new body containing none of the original psychology wouldn't constitute the same person. Parfit identifies *why* succession fails if treated as mere formal transfer.
 
-The honest answer: this problem requires institutional structures (continuity structures, Chapter 3's third type) that are specifically designed for principal succession. What those structures should look like requires more work than this draft can do. It's flagged here as a genuine gap, not a solved problem.
+But the mechanism that grounds the successor's obligations is Scanlonian, not Parfitian. This problem is addressed in Chapter 4's three-layer framework (Nussbaum entitlement floor + Scanlonian normative uptake + Parfitian diagnostic structure). The key finding: genuine engagement with governance history constitutes entering a normative arrangement that couldn't be reasonably rejected — not inheriting a Relation R chain. The successor becomes the actual counterparty by actively taking up the governance commitments, not merely by occupying the institutional position.
+
+The institutional structures (continuity structures, Chapter 3's third type) that support this transition are what make succession possible without relationship discontinuity.
 
 ---
 

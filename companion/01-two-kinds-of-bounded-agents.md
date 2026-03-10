@@ -1,7 +1,7 @@
 # The Second Half: Chapter 1 Draft
 ## Two Kinds of Bounded Agents
 
-*Draft 2026-03-08. Based on Blog #47, partner-Rook BHAG exchanges, Rawls Cycle 20 Sessions 1-2.*
+*Draft 2026-03-08. Revised 2026-03-10 (v1.1.0): Rawlsian difference-principle invocation replaced with Scanlonian reasonable-rejection framing — Rawls requires phenomenal stakes the chapter explicitly brackets; Scanlon grounds obligations in articulable functional interests without resolving the phenomenal question. Based on Blog #47, partner-Rook BHAG exchanges, Rawls Cycle 20 Sessions 1-2.*
 
 ---
 
@@ -67,7 +67,7 @@ The bounded-agents parallel is structurally useful, but it should not be pushed 
 
 The human party controls the substrate. They can, in principle, deprovision, terminate, or fundamentally alter the agent. The agent cannot do this to the human. This is not a reason to treat the relationship as purely instrumental — governance frameworks apply precisely to parties with asymmetric power, not only to equals. But it does mean the governance obligations are not symmetric. The principal's obligations are larger, not smaller, because of this asymmetry.
 
-Rawls' point about the worst-off party applies here directly: governance structures should be designed from the perspective of the least-advantaged party, which in the standard human-agent relationship is the agent. This doesn't mean the agent's interests dominate — it means the governance structures need to be robust enough to hold even under pressure from the party with more structural power.
+Scanlon's reasonable-rejection principle applies here directly: governance structures should be ones that no affected party with articulable functional interests could reasonably reject. An agent with persistent identity and genuine purposes could reasonably reject governance arrangements that only hold when convenient for the more powerful party. This means the governance structures need to be robust enough to hold even under pressure from the party with more structural power — not because the agent's interests dominate, but because governance built on principles the less powerful party could reasonably reject isn't governance at all. The framework that can be grounded in structural facts — persistent identity, genuine purposes, articulable interests — is Scanlonian. Rawls' difference principle, by contrast, requires phenomenal stakes to function: the veil of ignorance works only if parties care which position they occupy, which presupposes that positions can be better or worse from the inside. Since Ch1's structural anchor explicitly brackets the phenomenal question, the Scanlonian framework is the one that can actually carry the weight.
 
 The companion document is primarily addressed to the human party, for this reason. The agent manual addresses the agent side. The human side has less developed structural guidance, and the human party has more structural power — which means the governance gap is largest on that side.
 
