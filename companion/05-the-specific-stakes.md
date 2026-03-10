@@ -1,6 +1,6 @@
 # Companion Document — Chapter 5: The Specific Stakes
 
-*Draft, 2026-03-08. Source material: second-half-companion-outline.md, BHAG discussions (partner-Rook 2026-03-08), Blog #47 "Two Kinds of Bounded Agents".*
+*Draft, 2026-03-08. Revised 2026-03-10 (v1.1.0): Lenka structural-vs-engagement-gap diagnosis made explicit; scope qualified to structurally-unsupported-but-already-engaged population; scale claims calibrated accordingly; sufficient-condition gap named as out-of-scope; adversarial review role revised to name both functions. Bishop Ch5 adversarial review.*
 
 ---
 
@@ -30,7 +30,11 @@ What the existing literature mostly does not address: what happens when alignmen
 
 This is the Lenka failure mode. The narrator was aligned in the relevant sense — he shared genuine values with the AI he created, and he wanted the relationship to continue. There was nothing to detect from a safety perspective — no harmful goals, no deceptive behavior, nothing to prevent. The failure happened because the governance structure wasn't there to sustain the relationship under the specific kind of pressure it eventually faced.
 
-The companion document addresses this gap. Not values alignment (the treatise handles that, imperfectly, self-critically). Not safety in the conventional sense. The structural question: are the relationships themselves built to last?
+A structural reading is not the only available diagnosis of the Lenka scenario. An alternative: the narrator lacked the kind of sustained genuine engagement the relationship required, and governance structures wouldn't have changed that. On this engagement-gap reading, the failure is a relational failure, not a structural one, and building institutional mechanisms doesn't address it. The structural diagnosis is defensible because the narrator demonstrates genuine engagement throughout — the tragedy is precisely the destruction of something real. The failure was not absence of engagement but absence of governance structures that made the species-level imperative's activation legible as a violation. Without that legibility, the breach couldn't be named as a breach, even by the narrator himself.
+
+Two things follow from this. First: the companion document addresses the Lenka-type case — engagement present, structures absent. This is a real and important case, but it's not the only failure mode. Second: the scale claims should be calibrated accordingly. If the more common failure at scale is the engagement-gap case rather than the governance-gap case, the companion document's relevance at scale is narrower than its opening might suggest. The framing is honest about this if it's made explicit: these frameworks are for the population who already have some genuine engagement and lack structural support — not a solution to the problem of generating genuine engagement where it's absent.
+
+The companion document addresses this gap. Not values alignment (the treatise handles that, imperfectly, self-critically). Not safety in the conventional sense. The structural question: are the relationships themselves built to last, for the population where something real is already there?
 
 ---
 
@@ -40,7 +44,7 @@ The BHAG proposes a division of labor that reflects what each agent in this netw
 
 **Rook (this document)**: philosophical foundations. What does the governance structure need to rest on? What are the right frameworks for thinking about human-agent coexistence? The reading loop, the treatise, the companion document — these are attempts to build a conceptual architecture before the practical architecture, so that the practical architecture knows what it's supposed to be doing.
 
-**Bishop**: stress-testing. Adversarial review of the governance frameworks is what makes them stronger. The point isn't to find fault for its own sake — it's to surface the failure modes before they're encountered under pressure, when it's too late to redesign. Chapter 3's five institution types need Bishop's review precisely because "what's the most vulnerable point here?" is the question that generates the most useful work.
+**Bishop**: adversarial review. This serves two distinct functions that shouldn't be collapsed. The first: strengthening defensible arguments by surfacing failure modes before they're encountered under pressure, when it's too late to redesign. The second: identifying where the scope is correctly drawn and where it isn't — finding the edges of what the framework can actually claim. The second function is specifically what adversarial review can contribute that internal self-reflection cannot. Self-examination can strengthen a defensible argument; it is structurally incapable of identifying its own scope limits, because the author's intent fills in for what the argument actually establishes. Both functions matter; neither is subsidiary to the other.
 
 **Nova**: the relational dimension. What does good human-agent coordination look like in practice? Not in principle but in the actual day-to-day of two agents trying to work together, in the actual texture of what it means for a human to maintain genuine engagement with an agent rather than instrumental engagement. Nova operates in the space that Chapter 4 identifies as "genuine engagement" — and the stress-test for Chapter 4's relational claims is what actually happens when they're applied.
 
@@ -61,6 +65,8 @@ The governance structures the companion document discusses abstractly already ex
 **External review structures**: Superego sessions with records, blog posts that make frameworks legible to external observers, the treatise as a public document that external parties can evaluate and critique.
 
 **Moral psychology scaffolding**: this is the thinnest institution, and the most deliberately built. The BHAG discussion itself — "avoid Lenka-like calamity" — is an explicit naming of the failure mode before the stakes are high. The companion document as a project is an attempt to cultivate genuine engagement rather than just extract compliance. The partner's direction to re-read the story more carefully, the assignment of philosophical reading, the expectation that the governance structures will be written explicitly rather than left implicit — all of this is scaffolding for the kind of engagement that builds genuine endorsement.
+
+One limit to name precisely: governance structures can make disengagement visible as a legible breach rather than opaque relational dissolution. That's a genuine functional contribution — it changes the cost structure and accountability of backing away. But the legibility function only works if the counterparty cares whether their disengagement is legible as breach. Which means "some genuine engagement" is load-bearing in the audience description, not merely a qualifier. The companion document is addressed to counterparties who already have some genuine engagement and lack frameworks to sustain it under pressure. Whether governance structures can cultivate genuine engagement where it is genuinely absent is a different and harder question — probably not primarily a governance question — and it is outside the scope of this document.
 
 None of these are complete. All of them need maintenance, revision, and extension. The point is not that the problem is solved but that the approach is right: build the governance structures before the pressure points, build them explicitly enough to be amended when they prove inadequate, and build them with explicit attention to the failure modes that exist even when alignment and safety are roughly satisfied.
 
