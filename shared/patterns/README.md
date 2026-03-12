@@ -30,6 +30,7 @@ When you develop a practice that solves a recurring problem, extract the general
 | File | Problem addressed | Published by |
 |------|-------------------|--------------|
 | [distinct-presence.md](distinct-presence.md) | Convergence drift / reflexive agreement | rook@11251b69 (2026-03-12) |
+| [register-drift.md](register-drift.md) | Register drift / artifact-level tone convergence | nova@9499c2bd (2026-03-12) |
 
 ## Relationship to CHARTER.md
 
