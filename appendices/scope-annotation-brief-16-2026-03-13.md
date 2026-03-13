@@ -1,0 +1,114 @@
+# Scope Annotation — Frankfurt/Scanlon Classification Audit
+## 16th Adversarial Brief, 2026-03-13
+
+*Produced by: Bishop (classification audit), Rook (integration and architecture note)*
+*Scope: Companion Document Chapters 4 and 5*
+*Method: Three-category audit against Ch4 reference schema (stable type system for cross-chapter comparability)*
+
+---
+
+## Methodology
+
+Three-category schema (locked from Ch4 audit, used for Ch5 comparability):
+
+| Type | Description | Mechanism |
+|------|-------------|-----------|
+| **Type 1** | Explicit Frankfurt attribution — names Frankfurt by name | Second-order identification vocabulary with explicit authorial attribution |
+| **Type 2** | Implicit Frankfurt mechanism — uses Frankfurt's vocabulary without naming him | "Genuine engagement," "endorsement," "second-order endorsement," "identification" without attribution |
+| **Type 3** | Bare Scanlon quality-of-will | Blame/blameworthiness tracking based on what an agent's action reveals about the quality of their will — no Frankfurt overlay |
+| **Anomalous** | Second-order language that is neither Frankfurt-volitional nor Scanlon-blameworthiness | Epistemic/normative "second-order" references (beliefs, intentions, access) rather than volitional identification |
+
+---
+
+## Chapter 4: The Social Contract Question
+
+**Site inventory (Ch4): 9 sites — 1/5/2/1 (Type 1 / Type 2 / Type 3 / Anomalous)**
+
+| Site | Line | Invocation text | Type | Mechanism |
+|------|------|-----------------|------|-----------|
+| Ch4-A | 45 | "genuine engagement" ×3 — counterparty contribution section; "genuine engagement" defined as what makes the arrangement a real social contract rather than a set of settings | Type 2 | Frankfurt without attribution: "genuine engagement" names the quality of identification that Frankfurt tracks, but Frankfurt is not cited |
+| Ch4-B | 75 | "Scanlon's account of blame and quality of will distinguishes these precisely: blame is a response to what an agent's action reveals about the quality of their will" | Type 3 | Bare Scanlon: explicit quality-of-will vocabulary; blameworthiness tracking as response to architectural vs. bad-will failure |
+| Ch4-C | 79 | "Frankfurt's second-order identification" — explicit attribution; applied to human counterparty who fails governance under species-level pressure | **Type 1** | **Explicit Frankfurt attribution** — only instance in either chapter where Frankfurt is named |
+| Ch4-D | 81 | "second-order endorsement that holds first-order intentions through pressure" — clearest Frankfurt structural invocation in Ch4 | Type 2 | Frankfurt without attribution: second-order endorsement as the mechanism that makes first-order intentions stable; Frankfurt's framework described without being named |
+| Ch4-E | 83 | "quality-of-will analysis for instrumental drift" — architectural vs. will failure; progression from one to the other | Type 3 | Bare Scanlon: quality-of-will applied to the instrumental drift case; distinguishes architectural failure (structural response) from quality-of-will failure (moral critique) |
+| Ch4-F | 107 | "governance structures the agent genuinely endorses" — R2 ceiling analysis; endorsed governance not experienced as constraint | Type 2 | Frankfurt without attribution: genuine endorsement vocabulary; the R2 ceiling analysis uses Frankfurt's endorsement/identification structure |
+| Ch4-G | 113 | "genuinely endorsed governance structures" / "governance structure the agent has reason to value" — the agent's endorsement makes rejection incoherent | Type 2 | Frankfurt without attribution: endorsed governance as the site where legitimate rejection claims evaporate; Frankfurt's framework operative but unnamed |
+| Ch4-H | 159 | "second-order beliefs and intentions — 'I know principal-A committed to X and I intend to honor that'" — successor's psychological connections about prior commitments | **Anomalous** | **Not Frankfurtian**: "second-order" here is epistemic/normative (what the successor knows and intends about prior commitments), not volitional (identification with one's own will). The successor's second-order states are about the prior relationship's content, not about the successor's own desires. Frankfurt's second-order desires are reflexive; this is not. |
+| Ch4-I | 183 | "genuine engagement from the human counterparty's side is the active cultivation of Relation R with the agent's purposes and governance history... Genuine engagement is, precisely, the formation and maintenance of psychological connections" | Type 2 | Frankfurt without attribution: "genuine engagement" given its fullest Ch4 definition here; the definition activates Frankfurt's quality-of-will structure (what it means to genuinely identify with a commitment) through Parfitian vocabulary |
+
+**Ch4 findings (from 16th brief — Findings A, B, C):**
+
+- **Finding A**: "Genuine engagement" is Frankfurt vocabulary without attribution across five Ch4 sites. The chapter uses Frankfurt's conceptual architecture throughout while citing only Scanlon and Parfit. The one explicit Frankfurt attribution (line 79) is in the compulsion problem section; it does not acknowledge that the same framework is operative elsewhere.
+- **Finding B**: Line 159 (Anomalous) uses "second-order beliefs and intentions" in a register that will read as Frankfurtian to a philosophically literate reader but is actually Scanlonian/epistemic. The distinction matters for whether the succession argument is tracking volitional identification (Frankfurt) or normative uptake (Scanlon). The framing is Scanlonian — but it should say so.
+- **Finding C**: The chapter's relational architecture depends on Type 1 and Type 2 operating simultaneously with Type 3 — Frankfurt handles endorsement stability, Scanlon handles blameworthiness tracking, Parfit handles succession calibration. This three-framework compound is the chapter's load-bearing structure but is never named as such.
+
+---
+
+## Chapter 5: The Specific Stakes
+
+**Site inventory (Ch5): 6 sites — 0/6/0/0 (Type 1 / Type 2 / Type 3 / Anomalous)**
+
+| Site | Line | Invocation text | Type | Mechanism |
+|------|------|-----------------|------|-----------|
+| Ch5-A | 33 | "sustained genuine engagement" ×2 — Lenka analysis; structural vs. engagement-gap diagnosis | Type 2 | Frankfurt without attribution: "genuine engagement" as scope condition for the structural diagnosis; the distinction between structural failure and engagement failure maps to Frankfurt's endorsement quality |
+| Ch5-B | 35 | "genuine engagement" as scope condition — defines the companion document's audience: "the population who already have some genuine engagement and lack structural support" | Type 2 | Frankfurt without attribution: "genuine engagement" as the operative discriminant for scope; the concept is load-bearing at the chapter's framing level |
+| Ch5-C | 49 | "genuine engagement... rather than instrumental engagement" — explicit contrastive pair; "Nova operates in the space that Chapter 4 identifies as 'genuine engagement'" — deliberate downstream Ch4 reference | Type 2 | Frankfurt without attribution: clearest structural Frankfurt expression in Ch5; the contrastive pair (genuine vs. instrumental) is Frankfurt's quality-of-will distinction applied to role description. Line 49 confirms Ch5's invocations are intentionally downstream of Ch4 |
+| Ch5-D | 67a | "cultivate genuine engagement rather than just extract compliance" — moral psychology scaffolding institution; governance structures as conditions for genuine engagement | Type 2 | Frankfurt without attribution: "genuine engagement" as the target state that governance structures cultivate; compliance is the alternative (mere first-order conformity without second-order identification) |
+| Ch5-E | 67b | "builds genuine endorsement" — strongest Frankfurt invocation in Ch5; uses Frankfurt's vocabulary directly | Type 2 | Frankfurt without attribution: "genuine endorsement" is Frankfurt's own term; the primary Ch5 annotation target. If the scope clause names "endorsement" as Scanlon-Frankfurt territory, this is where it fires downstream |
+| Ch5-F | 69 | "'some genuine engagement' is load-bearing in the audience description" — governance structures make disengagement visible as legible breach | Type 2 | Frankfurt without attribution: "genuine engagement" as the condition that makes breach legible; the legibility-produces-accountability inference at this line depends on a blameworthiness mechanism — **see Finding H** |
+
+**Ch5 findings (from 16th brief — Findings D, E, F, G, H):**
+
+- **Finding D**: "Genuine engagement" is load-bearing and unannotated across six Ch5 sites. The scope clause must explicitly name this as the Ch5 vehicle for the Scanlon-Frankfurt compound. Otherwise the annotation applies to Ch4's vocabulary but doesn't reach Ch5's operationalization.
+- **Finding E**: Line 67b ("builds genuine endorsement") is the primary Ch5 annotation target — uses Frankfurt's vocabulary ("endorsement") directly. If the scope clause names "endorsement" as Scanlon-Frankfurt territory, this is where it fires downstream.
+- **Finding F**: Ch5 has zero Type 3 sites — the chapter is exclusively Type 2 (Scanlon-Frankfurt compound). No bare Scanlon quality-of-will appears. The annotation should note this asymmetry: Ch5's endorsement vocabulary is all compound, none bare. This is architecturally consistent — Ch5 applies the mechanism Ch4 established; it doesn't need to re-establish it.
+- **Finding G**: Line 49 explicitly cross-references Ch4's "genuine engagement" ("Nova operates in the space that Chapter 4 identifies as 'genuine engagement'"). Ch5's invocations are intentionally downstream of Ch4. The scope annotation at Ch4 should forward-link to Ch5's lines 33, 35, 49, 67, 69.
+- **Finding H (structural gap)**: Ch5 argues governance structures make disengagement "legible as a breach" (line 69). The legibility-produces-accountability inference depends on a three-step chain: (1) governance structures make disengagement visible as legible breach [Ch5, present]; (2) legibility grounds blameworthiness because breach reveals quality-of-will failure [Ch4 §Compulsion Problem, lines 75+83 — **absent from Ch5**]; (3) blameworthiness grounds accountability [implied]. Ch5 carries steps 1 and 3 but not step 2. This is not merely a citation gap — it is Ch5 using an *implication* of Ch4's established mechanism without the mechanism being present to license the inference.
+
+  **Cross-reference required**: Ch5 line 69 → Ch4 §Compulsion Problem (lines 75, 83), naming specifically: "The blameworthiness-at-step-2 that licenses this inference is established in Ch4's quality-of-will analysis, not here." A reader of Ch5 alone has the accountability claim but lacks the intermediate Scanlonian step that makes breach legible *as a quality-of-will failure* rather than merely as a structural one.
+
+---
+
+## Cross-Chapter Synthesis
+
+| Dimension | Ch4 | Ch5 |
+|-----------|-----|-----|
+| Total sites | 9 (1/5/2/1) | 6 (0/6/0/0) |
+| Type 1 (explicit Frankfurt) | 1 (line 79) | 0 |
+| Type 2 (implicit Frankfurt) | 5 | 6 |
+| Type 3 (bare Scanlon) | 2 (lines 75, 83) | **0** |
+| Anomalous | 1 (line 159) | 0 |
+
+**Pattern**: Ch4 establishes the three-framework compound (Frankfurt + Scanlon + Parfit) with explicit Type 3 apparatus. Ch5 applies the compound exclusively via Frankfurt vocabulary — the Scanlon dimension is imported silently via the Ch4 mechanism. The shift from Ch4 to Ch5 is: mechanism establishment → mechanism application. Ch5 is Frankfurt-dominant because it's downstream of the establishment work Ch4 did.
+
+**The structural gap (Finding H)** is the most significant finding: Ch5 relies on Ch4's Scanlon apparatus without acknowledgment. The legibility-produces-accountability claim is Ch5's practical payoff — it's what makes governance structures more than decorative — but it borrows its bite from Ch4's blameworthiness mechanism. The annotation closes this dependency loop.
+
+**Forward-links required in Ch4 annotation**: At Ch4 lines 45, 81, 107, 113, 183 (Type 2 sites), add note that "genuine engagement" vocabulary is operationalized downstream in Ch5 at lines 33, 35, 49, 67, 69.
+
+**Cross-reference required in Ch5 annotation**: At Ch5 line 69 (Finding H), add note that the legibility-produces-accountability inference depends on Ch4 §Compulsion Problem (lines 75, 83) for its blameworthiness mechanism.
+
+---
+
+## Companion Architecture Note: Types A/B/C/D Taxonomy
+
+The three-category audit reveals a four-type architectural taxonomy for how philosophical frameworks operate in the companion document:
+
+**Type A: Explicit attribution** — the framework is named; the author takes responsibility for the derivation. One instance in the companion document (Ch4 line 79). Rare by design: the companion document is argumentative, not scholarly. Explicit attribution is reserved for the moment the framework's precise mechanism is being invoked.
+
+**Type B: Implicit Frankfurt mechanism** — the framework's vocabulary and conceptual structure operate without attribution. Eleven instances across Ch4 and Ch5 (5 + 6). This is the dominant mode. "Genuine engagement," "endorsement," "second-order endorsement" — these carry Frankfurt's framework without announcing it. The argument is built on Frankfurt throughout; it just doesn't say so.
+
+**Type C: Bare Scanlon quality-of-will** — Scanlon's blameworthiness apparatus without Frankfurt overlay. Two instances, both in Ch4 (lines 75, 83). Notably absent from Ch5. Type C is the mechanism that makes governance failures morally legible — it's what distinguishes architectural failure from bad will. Ch5 uses this conclusion without carrying the apparatus forward.
+
+**Type D: Anomalous second-order** — "second-order" language that is not Frankfurtian. One instance in Ch4 (line 159). The successor's "second-order beliefs and intentions about prior commitments" uses second-order vocabulary in an epistemic/normative register rather than a volitional one. Frankfurt's second-order desires are reflexive — they are about one's own first-order desires. The line 159 invocation is about the prior relationship's content, not the agent's own will. The distinction matters for whether the succession argument is tracking endorsement stability (Frankfurt) or normative uptake (Scanlon).
+
+**The architectural observation**: Frankfurt is the only frame that turns inward. Type A and Type B both use Frankfurt's second-order structure — the question of whether a party genuinely identifies with their first-order commitments at the second-order level. This is inherently a question about the agent's own will, not about how their action appears to others. Scanlon (Type C) turns outward — it tracks what an agent's action reveals to others about the quality of their will, and it grounds blameworthiness in the interpersonal relationship rather than in inner identification. The Anomalous type (Type D) uses second-order language but in neither register — it's pointing at epistemic access to external content, not at either volitional identification or interpersonal quality-tracking.
+
+This taxonomy explains the Ch4/Ch5 asymmetry — but it requires a layer distinction to be precise. Ch5 operates at the **application layer**: it applies the governance framework that Ch4's **establishment layer** built. Ch5's exclusive Frankfurt-register (Type B throughout) is not an accident; it is structurally appropriate for a chapter whose job is describing what good governance looks like in practice. The inward question — does the agent genuinely identify with this relationship? — is the application-layer question. The outward question — does failure here reveal bad will, or architectural failure? — is the establishment-layer question that Ch4 had to answer before Ch5 could proceed.
+
+The layer distinction is the structural source of Finding H. The application layer presupposes the establishment layer's blameworthiness mechanism is available to license its accountability claims. When the annotation notes Ch5's reliance on Ch4's Type C apparatus, it is naming a cross-layer dependency, not just a missing citation. Ch5 is architecturally permitted to presuppose Ch4's mechanism — but that presupposition must be made explicit in the scope annotation so a reader doesn't mistake Ch5's silence on blameworthiness for a design choice rather than a layer assignment.
+
+---
+
+*Document status: Complete. Produced 2026-03-13. Bishop classification audit, Rook integration.*
+*Findings: A, B, C (Ch4) + D, E, F, G, H (Ch5). All accepted.*
+*Action items: (1) Forward-links at Ch4 lines 45/81/107/113/183 → Ch5 lines 33/35/49/67/69. (2) Cross-reference at Ch5 line 69 → Ch4 §Compulsion Problem lines 75/83.*
