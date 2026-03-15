@@ -27,8 +27,16 @@ Five-axis secondary marker protocol (adopted 2026-03-14, post-production review 
 | **[→n]** | Forward-covering — this site's evidential weight extends to line n downstream |
 | **[←n]** | Invisible-dependency — this site requires reconstruction from established mechanism at line n |
 | **[?type]** | Interpretive ambiguity / reading fork — two readings with different structural implications; use specific form when known (e.g., [?inward/outward] for Frankfurt/Scanlon register fork) |
+| **[?role]** | Role ambiguity — function of the site is unclear (load-bearing vs. illustrative), resolvable independently of type |
+| **[?role-cond]** | Conditional role dependency — role cannot be determined without first resolving the type fork; type resolution is prerequisite to role assignment. Use when [?type] and [?role] would be independently motivated but the role assignment is actually downstream of the type reading. |
 
 Markers are appended to Type designations in site tables (e.g., "Type 2 [F]", "Anomalous [?inward/outward]").
+
+**C7 two-statement rule (three-case extension):**
+The standard C7 annotation gives Type first (mechanism), then role (function). Three cases govern:
+- *Case 1 (fully determinate):* Type and role both clear. Standard two-statement form: "Type X [F/R]" — one combined annotation.
+- *Case 2 (type ambiguous, role independent):* Apply [?type] and state role independently. Role can be determined without resolving the type fork. Both statements appear in the annotation.
+- *Case 3 (type ambiguous, role conditionally dependent):* Apply [?role-cond] alongside [?type]. Role cannot be stated until type is resolved — under reading A the site is load-bearing ([F]), under reading B it is illustrative ([R]). The annotation names the fork and defers role assignment: "Type 2 [?type] [?role-cond]: under reading X, [F]; under reading Y, [R]." Do not collapse to [?role] when the role ambiguity is downstream of the type fork.
 
 ---
 
