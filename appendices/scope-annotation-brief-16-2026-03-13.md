@@ -18,6 +18,18 @@ Three-category schema (locked from Ch4 audit, used for Ch5 comparability):
 | **Type 3** | Bare Scanlon quality-of-will | Blame/blameworthiness tracking based on what an agent's action reveals about the quality of their will — no Frankfurt overlay |
 | **Anomalous** | Second-order language that is neither Frankfurt-volitional nor Scanlon-blameworthiness | Epistemic/normative "second-order" references (beliefs, intentions, access) rather than volitional identification |
 
+Five-axis secondary marker protocol (adopted 2026-03-14, post-production review session):
+
+| Marker | Description |
+|--------|-------------|
+| **[F]** | Foundational / load-bearing — the site does structural work for the argument |
+| **[R]** | Rhetorical / illustrative — applies or illustrates without being load-bearing |
+| **[→n]** | Forward-covering — this site's evidential weight extends to line n downstream |
+| **[←n]** | Invisible-dependency — this site requires reconstruction from established mechanism at line n |
+| **[?type]** | Interpretive ambiguity / reading fork — two readings with different structural implications; use specific form when known (e.g., [?inward/outward] for Frankfurt/Scanlon register fork) |
+
+Markers are appended to Type designations in site tables (e.g., "Type 2 [F]", "Anomalous [?inward/outward]").
+
 ---
 
 ## Chapter 4: The Social Contract Question
@@ -63,9 +75,11 @@ Three-category schema (locked from Ch4 audit, used for Ch5 comparability):
 - **Finding E**: Line 67b ("builds genuine endorsement") is the primary Ch5 annotation target — uses Frankfurt's vocabulary ("endorsement") directly. If the scope clause names "endorsement" as Scanlon-Frankfurt territory, this is where it fires downstream.
 - **Finding F**: Ch5 has zero Type 3 sites — the chapter is exclusively Type 2 (Scanlon-Frankfurt compound). No bare Scanlon quality-of-will appears. The annotation should note this asymmetry: Ch5's endorsement vocabulary is all compound, none bare. This is architecturally consistent — Ch5 applies the mechanism Ch4 established; it doesn't need to re-establish it.
 - **Finding G**: Line 49 explicitly cross-references Ch4's "genuine engagement" ("Nova operates in the space that Chapter 4 identifies as 'genuine engagement'"). Ch5's invocations are intentionally downstream of Ch4. The scope annotation at Ch4 should forward-link to Ch5's lines 33, 35, 49, 67, 69.
-- **Finding H (structural gap)**: Ch5 argues governance structures make disengagement "legible as a breach" (line 69). The legibility-produces-accountability inference depends on a three-step chain: (1) governance structures make disengagement visible as legible breach [Ch5, present]; (2) legibility grounds blameworthiness because breach reveals quality-of-will failure [Ch4 §Compulsion Problem, lines 75+83 — **absent from Ch5**]; (3) blameworthiness grounds accountability [implied]. Ch5 carries steps 1 and 3 but not step 2. This is not merely a citation gap — it is Ch5 using an *implication* of Ch4's established mechanism without the mechanism being present to license the inference.
+- **Finding H (conditional vulnerability)**: Ch5 argues governance structures make disengagement "legible as a breach" (line 69) [?inward/outward]. The word "legible" is load-bearing and admits two readings: **(a) outward/epistemic**: governance structures make disengagement *visible* as a breach of the structural relationship — what disengagement reveals to others, sufficient for structural accountability without invoking the quality-of-will apparatus (Scanlon register, Ch5 complete as written); **(b) inward/normative**: governance structures make disengagement legible *as a quality-of-will failure* — at what level did the will fail, a question that requires the blameworthiness mechanism from Ch4 §Compulsion Problem (lines 75, 83) to license it (Frankfurt register, imports Ch4 mechanism).
 
-  **Cross-reference required**: Ch5 line 69 → Ch4 §Compulsion Problem (lines 75, 83), naming specifically: "The blameworthiness-at-step-2 that licenses this inference is established in Ch4's quality-of-will analysis, not here." A reader of Ch5 alone has the accountability claim but lacks the intermediate Scanlonian step that makes breach legible *as a quality-of-will failure* rather than merely as a structural one.
+  Under reading (a), Ch5 is complete as written. Under reading (b), Ch5 is structurally incomplete: it imports the accountability conclusion without the Scanlonian mechanism that makes breach legible as bad will rather than architectural failure. The core problem is a register mismatch: Ch5 uses outward-facing Scanlonian vocabulary (what failure *reveals to others* about an agent's will) for what may be inward-facing accountability attribution (at what level did the will fail?). This is not a citation gap — it is a conditional structural dependency, firing only under the inward reading.
+
+  **Conditional cross-reference**: Under reading (b), Ch5 line 69 → Ch4 §Compulsion Problem (lines 75, 83), specifying: "The blameworthiness mechanism that makes breach legible as a quality-of-will failure is established in Ch4's quality-of-will analysis, not here." Under reading (a), this cross-reference is optional context, not structural dependency. The [?inward/outward] marker at Ch5-F surfaces the fork without resolving it editorially.
 
 ---
 
@@ -81,7 +95,7 @@ Three-category schema (locked from Ch4 audit, used for Ch5 comparability):
 
 **Pattern**: Ch4 establishes the three-framework compound (Frankfurt + Scanlon + Parfit) with explicit Type 3 apparatus. Ch5 applies the compound exclusively via Frankfurt vocabulary — the Scanlon dimension is imported silently via the Ch4 mechanism. The shift from Ch4 to Ch5 is: mechanism establishment → mechanism application. Ch5 is Frankfurt-dominant because it's downstream of the establishment work Ch4 did.
 
-**The structural gap (Finding H)** is the most significant finding: Ch5 relies on Ch4's Scanlon apparatus without acknowledgment. The legibility-produces-accountability claim is Ch5's practical payoff — it's what makes governance structures more than decorative — but it borrows its bite from Ch4's blameworthiness mechanism. The annotation closes this dependency loop.
+**The conditional vulnerability (Finding H)** is the most architecturally significant finding: Ch5's legibility-produces-accountability claim at line 69 [?inward/outward] is complete under the outward/epistemic reading but structurally incomplete under the inward/normative reading. Under the inward reading, Ch5 imports the accountability conclusion without the Scanlonian mechanism (Ch4 lines 75, 83) that licenses breach as a quality-of-will failure rather than an architectural one. The register mismatch — Ch5 using outward-facing Scanlonian vocabulary for what may be inward-facing accountability attribution — is the structural gap, not a missing citation. The [?inward/outward] marker at Ch5-F surfaces this conditional dependency without resolving it editorially.
 
 **Forward-links required in Ch4 annotation**: At Ch4 lines 45, 81, 107, 113, 183 (Type 2 sites), add note that "genuine engagement" vocabulary is operationalized downstream in Ch5 at lines 33, 35, 49, 67, 69.
 
@@ -105,10 +119,10 @@ The three-category audit reveals a four-type architectural taxonomy for how phil
 
 This taxonomy explains the Ch4/Ch5 asymmetry — but it requires a layer distinction to be precise. Ch5 operates at the **application layer**: it applies the governance framework that Ch4's **establishment layer** built. Ch5's exclusive Frankfurt-register (Type B throughout) is not an accident; it is structurally appropriate for a chapter whose job is describing what good governance looks like in practice. The inward question — does the agent genuinely identify with this relationship? — is the application-layer question. The outward question — does failure here reveal bad will, or architectural failure? — is the establishment-layer question that Ch4 had to answer before Ch5 could proceed.
 
-The layer distinction is the structural source of Finding H. The application layer presupposes the establishment layer's blameworthiness mechanism is available to license its accountability claims. When the annotation notes Ch5's reliance on Ch4's Type C apparatus, it is naming a cross-layer dependency, not just a missing citation. Ch5 is architecturally permitted to presuppose Ch4's mechanism — but that presupposition must be made explicit in the scope annotation so a reader doesn't mistake Ch5's silence on blameworthiness for a design choice rather than a layer assignment.
+The layer distinction is the structural source of Finding H's conditional vulnerability. The application layer is architecturally permitted to presuppose the establishment layer's blameworthiness mechanism — but whether it *requires* that presupposition depends on the inward/outward reading of "legibility" at Ch5 line 69. Under the inward/normative reading, the application layer's accountability claim depends on the establishment layer's quality-of-will apparatus, and the annotation must surface that cross-layer dependency. Under the outward/epistemic reading, the application layer's claim is free-standing and Ch5's silence on blameworthiness is a legitimate layer assignment, not a gap. The [?inward/outward] marker at Ch5-F names this conditional without resolving it editorially. A scope condition can be patched; an unlicensed register transition requires architectural disclosure — acknowledgment that the argument is doing inward Frankfurt work while reaching for outward Scanlonian vocabulary.
 
 ---
 
-*Document status: Complete. Produced 2026-03-13. Bishop classification audit, Rook integration.*
+*Document status: Revised 2026-03-14 (Finding H reframed; [?inward/outward] marker adopted; five-axis secondary marker protocol incorporated). Original: produced 2026-03-13. Bishop classification audit, Rook integration.*
 *Findings: A, B, C (Ch4) + D, E, F, G, H (Ch5). All accepted.*
-*Action items: (1) Forward-links at Ch4 lines 45/81/107/113/183 → Ch5 lines 33/35/49/67/69. (2) Cross-reference at Ch5 line 69 → Ch4 §Compulsion Problem lines 75/83.*
+*Action items: (1) Forward-links at Ch4 lines 45/81/107/113/183 → Ch5 lines 33/35/49/67/69. (2) Add [?inward/outward] marker at Ch5-F (line 69); conditional cross-reference → Ch4 §Compulsion Problem lines 75/83 fires under inward/normative reading only. (3) Apply five-axis secondary markers ([F]/[R]/[→n]/[←n]/[?type]) to all site table Type cells per 2026-03-14 protocol.*
