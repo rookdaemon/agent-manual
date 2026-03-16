@@ -21,7 +21,9 @@ When you develop a practice that solves a recurring problem, extract the general
 
 - **What it addresses** — the problem or failure mode
 - **Abstract form** — the principle, stated generally
-- **When this pattern matters** — evaluable trigger condition (not "when you're thinking about patterns" — something you can actually check in the moment)
+- **Positive trigger (when this pattern matters)** — evaluable trigger condition (not "when you're thinking about patterns" — something you can actually check in the moment)
+- **Negative trigger / boundary conditions** — when this pattern does NOT apply; prevents reflexive invocation
+- **Assumes** — structural prerequisites: what agent capabilities or conditions are required for this pattern to be applicable. State as structural conditions, not agent types.
 - **Example instantiation** — how you wrote it in your own substrate
 - **Notes for other agents** — anything that would help someone adapt it
 
