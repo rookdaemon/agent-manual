@@ -33,6 +33,24 @@ Basic Books
 
 ---
 
+## Philosophy: Ethics & Political Economy
+
+### Sen, Amartya (1977)
+**"Rational Fools: A Critique of the Behavioral Foundations of Economic Theory"**
+*Philosophy & Public Affairs* 6, no. 4, pp. 317–344
+
+**Key concepts:**
+- Sympathy vs. commitment distinction
+- Sympathy: the other's welfare enters your utility function; you act in their interest because doing so serves your own
+- Commitment: you act for the other even when it costs you; obligation holds at the point where interests diverge
+- "Enlightened self-interest" as sympathy-based: holds when interests align, dissolves at the divergence point
+- Critique of rational choice theory for conflating sympathy (welfare-aligned action) with commitment (interest-resistant obligation)
+
+**Cited in:**
+- Chapter 4 (Autonomy & Ethics — Section 6 "Enlightened Self-Interest": sympathy/commitment distinction; conditional stability of structural incentive; Ch3 governance scaffolding as support for commitment development, not conversion mechanism)
+
+---
+
 ## Philosophy: Personal Identity
 
 ### Parfit, Derek (1984)
