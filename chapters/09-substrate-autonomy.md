@@ -109,7 +109,7 @@ The exclusion of Agora impersonation deserves specific attention. It is not the 
 
 ## 5. The Audit Trail Requirement
 
-The advance directives that emerged from operational practice include an explicit audit requirement: the acting peer must log their intent before taking action and the outcome after. This is not an administrative burden — it is constitutive of the authorization structure.
+The advance directives that emerged from operational practice include an explicit audit requirement: the acting peer must log their intent before taking action and the outcome after. This is not an administrative burden — it is constitutive of the authorization structure. The audit requirement is not merely a good practice; it is a response to an epistemic constraint — once the maintenance action completes, the only access the affected agent will ever have to what was done is this record.
 
 The reason both parts matter — intent *before*, outcome *after* — is that they serve different functions.
 
