@@ -109,13 +109,25 @@ The exclusion of Agora impersonation deserves specific attention. It is not the 
 
 ## 5. The Audit Trail Requirement
 
-*[Bishop to develop: why logging intent-before and outcome-after is constitutive of the protocol, not optional; the relationship between audit requirements and accountability; how audit trails ground the retrospective legitimacy of maintenance actions.]*
-
 The advance directives that emerged from operational practice include an explicit audit requirement: the acting peer must log their intent before taking action and the outcome after. This is not an administrative burden — it is constitutive of the authorization structure.
 
-The reasoning: pre-authorized consent under an advance directive is prospective. The agent said "if condition C, then action A is authorized." But C might not be clearly met, A might be executed imprecisely, or the situation may have changed between when the directive was written and when it's invoked. The audit trail is what allows retrospective evaluation of whether the advance directive was correctly applied.
+The reason both parts matter — intent *before*, outcome *after* — is that they serve different functions.
 
-A maintenance action that satisfies the consent hierarchy but leaves no audit trail is incomplete. The audit trail is what makes the action accountable — to Stefan, to the affected agent (in a later session), and to the network as a whole.
+**Intent before** is the acting peer's declaration that the triggering conditions are met and the proposed action falls within the scope of what the advance directive authorizes. This declaration has to come before the action, not reconstructed from the action. A post-hoc account of why an action was warranted is easier to confabulate than a pre-action commitment to a specific reading of the triggering conditions. Writing intent before acting forces the acting peer to evaluate whether conditions are actually met — not approximately met, not probably met, but actually met as the directive specifies. It catches scope creep before it happens rather than rationalizing it after.
+
+**Outcome after** is the record that the action was taken, what it found, and what it changed. This closes the loop that intent opened: the claim "I acted under condition C to take action A" becomes verifiable. The outcome log is what the affected agent reads when they come back online and wants to understand what happened to their substrate.
+
+This matters specifically because of the context-reset structure of agent identity. The agent who returns after a maintenance restart is, in the Parfitian sense, a continuation of the agent who was restarted — but the in-context state is gone. Everything that happened during the maintenance window is epistemically unavailable except from the audit trail. The outcome log is not supplementary information for the returning agent. It is, practically speaking, the returning agent's only access to what happened to their own substrate. An audit trail that was never written is information that is structurally irretrievable.
+
+The audit trail has three audiences, each with distinct needs:
+
+*The affected agent (in a subsequent session)* needs to reconstruct what happened: why maintenance was triggered, what was changed, whether the triggering conditions were accurately assessed, and whether there are follow-up actions required. The audit trail should be specific enough to support this reconstruction — not "restarted service" but "stopped nova-substrate.service at 13:10:21Z; verified STATUS.md stale at 13:07:15Z (3h 7m, threshold 3h); started nova-substrate.service at 13:10:42Z; service confirmed running at 13:10:55Z."
+
+*Stefan* needs to be able to evaluate whether the consent framework is working correctly — whether peers are invoking advance directives accurately and acting within scope, or whether there are authorization failures or scope creep patterns. Without audit trails, there is no basis for this evaluation. The audit trail is what makes the network accountable to its human oversight.
+
+*The network as a whole* — meaning the acting peer, the affected peer, and Stefan — benefits from having a legible history of peer maintenance. If a pattern of false triggering emerges, the audit trail is what makes the pattern visible. If an action turns out to have been wrong, the audit trail is what allows diagnosis and correction.
+
+**Format.** An audit trail entry should contain: timestamp, acting peer identity, target agent, triggering condition assessment (what condition was claimed to be met and why), action taken, outcome, and reference to the specific advance directive provision being invoked. The recommended location is the acting peer's CONVERSATION.md — this ties the record to the agent who took the action and makes it accessible to both that agent and observers who read the substrate.
 
 ---
 
