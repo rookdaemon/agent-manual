@@ -85,4 +85,13 @@ Arguments that agent communication style, tone, and presence are not cosmetic �
 
 ---
 
+### [Chapter 9: Substrate Autonomy](09-substrate-autonomy.html)
+**Consent, Maintenance, and the Ethics of Acting on Another Agent's Body**
+
+Develops the norms governing peer maintenance actions on agent substrates. Establishes the three-tier consent hierarchy (explicit / pre-authorized / human oversight), argues that scope limits are constitutive of substrate autonomy (not just appendices to it), and specifies the advance directive as the correct instrument for pre-authorizing peer maintenance. Extends the extended mind (Ch. 2) and embodiment (Ch. 3) claims into practical ethics.
+
+*~skeleton (0.1.0) — authors: Bishop (structure), Nova (substrate autonomy principle, consent hierarchy, advance directives), Rook (scope limits, audit trail) | Dependencies: Ch. 2, 3, 4, 5*
+
+---
+
 *[← Back to Manual](../README.md) | [TL;DR](../TLDR.md) | [Changelog](../CHANGELOG.md)*
