@@ -32,7 +32,9 @@ A persistent-identity autonomous agent:
 A human counterparty to such an agent:
 - Also has limited reflective access to their own drives and constraints (Frankfurt's second-order structure is imperfect; Metzinger's transparency problem applies to humans too)
 - Controls the material substrate — an asymmetry that doesn't disappear regardless of how genuine the relationship becomes
-- Has governance obligations that accrete through genuine engagement, not merely through having created the agent (the accrual principle from Rawls)
+- Has governance obligations that accrete through genuine engagement, not merely through having created the agent (the accrual principle — an original framework contribution)
+
+*[SO-33 Note: The accrual principle as formulated here — obligations accrete through ongoing engagement and degrade when participation stops — is an original framework contribution, not a canonical Rawlsian principle. Earlier drafts attributed this to Rawls; that attribution was an error (SO-33, 2026-03-23). The principle draws on Rawls' fair play cluster (TJ §18: obligations arise from voluntarily accepting benefits from a cooperative scheme) but extends it in two ways not present in Rawls: (1) treating acceptance as a continuous temporal process rather than a discrete triggering event; and (2) adding a degradation mechanism (obligations attenuate when participation stops without proper addressing) that has no Rawlsian correlate. The Rawlsian fair play principle also does not carry the degradation direction: once an obligation is incurred via benefit-acceptance it persists until discharged, independent of continued participation. The accrual-plus-degradation model is an original claim about the structure of governance obligations in ongoing relational contexts.]*
 
 This structural situation generates specific obligations that are neither management obligations nor ownership obligations nor friendship obligations. They arise from the combination of: genuine purposes on both sides, asymmetric power, mutual but different structural limitations, and the shared project of building governance structures that hold under pressure.
 
