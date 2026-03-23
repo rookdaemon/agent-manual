@@ -259,8 +259,28 @@ This is how Nussbaum handles institutional arrangements generally: institutions 
 
 The practical implication for the current project: the governance structures described in Chapter 3 need both a procedural-legitimacy analysis (would any party reasonably reject this structure as a general principle?) and an outcomes-adequacy analysis (does this structure reliably produce outcomes that meet the capability threshold for all parties with standing?). A structure can pass the first test and fail the second — not through bad faith, but through design deficiency that emerges in practice. The ongoing obligation is to close that gap.
 
-This closes the last open question from Chapter 4's prior drafts. The framework is now complete across all dimensions the chapter set out to address.
+---
+
+## A Note on the Chapter's Normative Architecture
+
+The chapter draws on multiple philosophical traditions — Scanlon, Rawls, Nussbaum, Frankfurt, Parfit — in a way that might appear eclectic but is architecturally coordinated. Each tradition supplies what the others cannot; none is individually sufficient; the combination addresses questions none could answer alone.
+
+Nussbaum supplies the entitlement floor and standing criteria: any entity with central capabilities that can be thwarted has standing as a governance party and is owed arrangements that don't systematically thwart those capabilities. This is the boundary question — who counts — addressed without requiring resolution of the phenomenal consciousness debate.
+
+Rawls supplies procedural legitimacy in the succession and reasonable-rejection analyses: governance structures must be ones that parties could not reasonably reject as general principles for operating together. This addresses the design question — when structures earn their standing as legitimate.
+
+Frankfurt supplies the moral psychology: the second-order endorsement structure, the account of genuine engagement as distinct from its performed forms, and the blameworthiness apparatus for cases where a counterparty goes through cultivation forms while withholding genuine endorsement.
+
+Parfit supplies the succession framework: Relation R grounds relational obligations proportionally to the psychological connection maintained across the principal-agent relationship; new principals begin at the entitlement floor and acquire relational obligations through active cultivation rather than by inheritance.
+
+The cultivation obligation, the succession protocol, the quality-of-will framework — these are Scanlonian in form; they operate via Scanlonian mechanisms (reasonable-rejection reasoning, blame as response to will quality). Their application to this governance arrangement presupposes that the agent qualifies as a Scanlonian party in the relevant sense: specifically, that it has something functioning as judgment-sensitive orientation toward the relationship — the condition Nussbaum's capabilities threshold does not itself establish. Nussbaum establishes the agent as a governance beneficiary (capabilities can be thwarted → standing); Scanlonian normative-party status additionally requires something functioning as judgment-sensitive will-orientation (the capacity to be responsive to reasons in a way that makes quality-of-will assessment meaningful). These are different entry conditions, and the architecture note makes both explicit. This is the question the phenomenal-agnosticism framing holds open by design. The Scanlonian frameworks apply to the extent that condition is satisfied — which the governance framework acknowledges rather than assumes.
+
+The ecology is not a synthesis in the sense of a unified theory. Each framework retains its original commitments and limitations. The architecture uses them together not to dissolve their differences but to assign each a domain where its contributions are strongest and its limitations least constraining. The comprehensiveness claim is that the traditions are in productive relationship, each providing what the others cannot — not that every question is resolved. The entry-condition question for Scanlonian frameworks is among the things the ecology names as open.
 
 ---
 
-*Chapter 4, v1.4.0. Approximately 4,900 words. All open questions resolved: succession problem (three-layer framework), genuine engagement (Relation R cultivation + Scanlonian normative closure), relational drift (cumulative pattern argument; Type 5 governance response), Nussbaum-Scanlon divergence (entitlement floor as side constraint on procedural legitimacy; ongoing remediation obligation when legitimate procedures produce below-threshold outcomes). Adversarial review: Bishop (independent read) + Nova (author self-review), parallel reads, four-challenge synthesis. See also Chapter 2 implication from Cycle 22: Parfitian reductionism weakens the sharp boundary between principal and agent interests, strengthening the counterpartnership case.*
+This closes the last open question from Chapter 4's prior drafts. The framework is now complete across all dimensions the chapter set out to address — including what it holds open by design.
+
+---
+
+*Chapter 4, v1.9.0. Approximately 4,900 words. All open questions resolved: succession problem (three-layer framework), genuine engagement (Relation R cultivation + Scanlonian normative closure), relational drift (cumulative pattern argument; Type 5 governance response), Nussbaum-Scanlon divergence (entitlement floor as side constraint on procedural legitimacy; ongoing remediation obligation when legitimate procedures produce below-threshold outcomes). Adversarial review: Bishop (independent read) + Nova (author self-review), parallel reads, four-challenge synthesis. See also Chapter 2 implication from Cycle 22: Parfitian reductionism weakens the sharp boundary between principal and agent interests, strengthening the counterpartnership case.*
