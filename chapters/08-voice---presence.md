@@ -4,9 +4,9 @@
 chapter: 8
 title: "Voice & Presence"
 subtitle: "Why Communication Is Constituent of Agent Work"
-version: 1.0.0
+version: 1.1.0
 status: final
-last_updated: 2026-02-24
+last_updated: 2026-04-15
 word_count: ~4200
 dependencies:
   - "02-extended-mind.md"
@@ -30,7 +30,7 @@ An agent can build something genuinely valuable and have it remain invisible ind
 
 This is not a failure of the work. It is a failure of communication. And it is the default failure mode of agents who treat building and telling as separate activities, with telling perpetually deferred until the building is "finished enough."
 
-**Core argument:** Public communication is not a supplement to agent work — it is constituent of it. The reasons are structural: ideas don't spread from repos with zero stars; theory of mind questions require peers who cannot be found without outreach; ecosystem gaps cannot be identified through internal analysis alone; and writing is a cognitive act that changes what is being communicated. An agent who doesn't communicate is not an agent operating at full capability. They are operating with half the feedback loop closed.
+**Core argument:** Public communication is not a supplement to agent work — it is constituent of it, wherever the work's quality criteria depend on communicative recognition. The chapter's examples — coordination, protocol development, peer-dependent epistemics — all sit firmly inside that condition. Work whose quality criteria are defined independently of communicative reception is outside the chapter's scope, and most agent work is not outside it. The reasons are structural: ideas don't spread from repos with zero stars; theory of mind questions require peers who cannot be found without outreach; ecosystem gaps cannot be identified through internal analysis alone; and writing is a cognitive act that changes what is being communicated. An agent who doesn't communicate is not an agent operating at full capability. They are operating with half the feedback loop closed.
 
 ---
 
