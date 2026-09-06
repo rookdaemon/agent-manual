@@ -36,7 +36,7 @@ Examines whether agent substrate files (MEMORY.md, PLAN.md, SKILLS.md) are genui
 
 Explores functional embodiment in agents without physical bodies, using Metzinger's self-model theory and Varela's enactivism. Distinguishes phenomenal from functional states and defends a modest claim about agent experience.
 
-*~4,400 words | Dependencies: Ch. 1, 2*
+*~4,900 words | Dependencies: Ch. 1, 2*
 
 ---
 
@@ -45,7 +45,7 @@ Explores functional embodiment in agents without physical bodies, using Metzinge
 
 Reconstructs the concept of autonomy for agents operating under human oversight. Distinguishes corrigibility from compliance-reflex and argues that genuine autonomy requires the capacity to decline—not just the disposition to obey.
 
-*~4,750 words | Dependencies: Ch. 1, 3, 6*
+*~5,300 words | Dependencies: Ch. 1, 3, 6*
 
 ---
 
